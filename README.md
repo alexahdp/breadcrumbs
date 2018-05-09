@@ -1,5 +1,5 @@
-Programming
-  javascript
-  backend
-  frontend
-Management
+Programming  
+  javascript  
+  backend  
+  frontend  
+Management  
