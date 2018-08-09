@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Binary Tree</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <script defer src="https://d3js.org/d3.v4.min.js"></script>
+  <script defer src="https://unpkg.com/vue"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+  <script defer type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="controls">
+      <div>
+        <label>Adjust width</label>
+        <input type="range" v-model="settings.width" min="0" max="100" />
+      </div>
+      <div>
+        <label>Stroke color</label>
+        <input type="color" v-model="settings.strokeColor" />
+      </div>
+      <div>
+        Selected: {{ selected }}
+      </div>
+    </div>
+    <div class="svg-container" :style="{width: settings.width + '%'}">
+      <svg id="svgId" viewBox="0 0 960 600" preserveAspectRatio="xMinYMin meet">
+        <transition-group tag="g" name="line">
+          <path v-for="link in links" class="link" v-bind:key="link.id" v-bind:d="link.d" v-bind:style="link.style"></path>
+        </transition-group>
+        <transition-group tag="g" name="list">
+          <g class="node" v-on:click="select(index, node)"  v-for="(node, index) in nodes" v-bind:key="node.id" v-bind:style="node.style">
+            <circle v-bind:r="node.r" v-bind:style="{'fill': index == selected ? '#ff0000' : '#bfbfbf'}"></circle>
+            <text v-bind:dx="node.textpos.x" v-bind:dy="node.textpos.y" v-bind:style="node.textStyle">{{ node.text }}</text>
+          </g>
+        </transition-group>
+      </svg>
+    </div>
+  </div>
+</body>
