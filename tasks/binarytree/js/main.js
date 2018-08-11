@@ -18,22 +18,25 @@ const data = {
   tree.add(50, true);
   data.csv = tree.exportCSV();
 
-  for (let i = 0; i < 30; i++) {
-    const val = Math.round(Math.random() * 100);
+  // for (let val of [91,58]) {
+  for (let i = 0; i < 200; i++) {
+    const val = Math.round(Math.random() * 200);
     testData.push(val);
+    // console.log(JSON.stringify(testData));
     tree.add(val, true);
+    if ( ! tree.find(val)) throw new Error(`value not found ${val}`);
     tree.validate();
     data.csv = tree.exportCSV();
     await delay();
   }
 
-  const testData2 = _.shuffle(testData);
-  for (let b of testData2) {
-    tree.remove(b, true);
-    tree.validate();
-    data.csv = tree.exportCSV();
-    await delay();
-  }
+  // const testData2 = _.shuffle(testData);
+  // for (let b of testData2) {
+  //   tree.remove(b, true);
+  //   tree.validate();
+  //   data.csv = tree.exportCSV();
+  //   await delay();
+  // }
 })()
 
 new Vue({

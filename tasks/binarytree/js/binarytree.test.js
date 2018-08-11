@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const Node = require('./main');
+const Node = require('./binaryNode.js');
 
 describe('', () => {
   it('constructor', () => {

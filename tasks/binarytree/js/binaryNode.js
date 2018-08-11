@@ -45,6 +45,7 @@ class Node {
     node.parent = this;
   }
 
+
   getMax() {
     return this.next ? this.next.getMax() : this;
   }
@@ -61,24 +62,19 @@ class Node {
   getDepth() {
     const nextDepth = this.next ? this.next.getDepth() : 0;
     const prevDepth = this.prev ? this.prev.getDepth() : 0;
-    return (nextDepth > prevDepth ? nextDepth : prevDepth) + 1;
+    return Math.max(prevDepth, nextDepth) + 1
   }
 
   balance() {
-    const leftDepth = this.prev ? this.prev.getDepth() : 0;
-    const rightDepth = this.next ? this.next.getDepth() : 0;
+    const leftDepth = this.prev ? this.prev.getDepth() + 1 : 0;
+    const rightDepth = this.next ? this.next.getDepth() + 1 : 0;
 
-    if (Math.abs(leftDepth - rightDepth) <= 1) {
-      if (this.parent) {
-        this.parent.balance();
+    if (Math.abs(leftDepth - rightDepth) > 1) {
+      if (leftDepth > rightDepth) {
+        this.leftRotation();
+      } else {
+        this.rightRotation();
       }
-      return;
-    }
-
-    if (leftDepth > rightDepth) {
-      this.leftRotation();
-    } else {
-      this.rightRotation();
     }
 
     if (this.parent) {
@@ -206,3 +202,4 @@ class Node {
 }
 
 export default Node;
+// module.exports = Node;

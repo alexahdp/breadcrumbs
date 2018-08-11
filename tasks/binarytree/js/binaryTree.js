@@ -5,18 +5,22 @@ class BinaryTree {
     this.root = null;
   }
 
-  add(val) {
+  add(val, balance) {
     if (!this.root) {
       this.root = new Node(val);
       this.root.root = this;
       return;
     }
     
-    this.root.add(val, true);
+    this.root.add(val, balance);
   }
 
   remove(val) {
     this.root.remove(val);
+  }
+
+  find(val) {
+    return this.root.find(val);
   }
 
   validate() {

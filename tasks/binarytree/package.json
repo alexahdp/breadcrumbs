@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "mocha binarytree.test.js"
+    "test": "mocha js/binarytree.test.js"
   },
   "author": "",
   "license": "ISC",
