@@ -1,6 +1,7 @@
 # Интересные и полезные ссылки
 
 ## Программирование
+ - [66 рекомендаций, улучшающих навыки программиста](https://proglib.io/p/prog-skill/)   
  - [Как писать неподдерживаемый код](http://habrahabr.ru/company/friifond/blog/268063/)  
  - [Искусство командной строки](http://habrahabr.ru/post/262127/)  
  - [Шпаргалка по mongodb 1](http://habrahabr.ru/post/259219/)  
