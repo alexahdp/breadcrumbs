@@ -29,6 +29,11 @@
  - [Как работает js в браузере](https://habr.com/company/ruvds/blog/354070/)  
 
 
+## Менеджмент
+ - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
+ - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
+
+
 ## Трансгуманизм
  - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)
  - [Почему вам следует загрузить свой разум в суперкомпьютер?](http://habrahabr.ru/company/asus/blog/230827/)  
