@@ -53,14 +53,6 @@
  - [Ядро ОС Linux](http://www.opennet.ru/docs/RUS/kernel2prog/)  
  - [ОС Linux](http://www.opennet.ru/docs/RUS/linux_base/linux_base-linux.html.gz)  
 
-
-## Машинное обучение
- - [Что такое свёрточная нейронная сеть](https://habrahabr.ru/post/309508/)  
- - [Обзор методов эволюции нейронных сетей](http://geektimes.ru/post/84015)  
- - [Deconvolutional Neural Network](http://habrahabr.ru/company/nordavind/blog/253859/)  
- - [Нейронные сети для начинающих. Часть 2](https://habrahabr.ru/post/313216/)  
-
-
 ## Графика
  - [Много примеров на THREEjs](https://github.com/josdirksen/threejs-cookbook)  
  - [псевдо 3d -road rush](https://habrahabr.ru/post/325482/)  

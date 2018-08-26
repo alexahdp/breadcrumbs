@@ -2,6 +2,9 @@
 
 ## Статьи
 
+ - [Что такое свёрточная нейронная сеть](https://habrahabr.ru/post/309508/)  
+ - [Обзор методов эволюции нейронных сетей](http://geektimes.ru/post/84015)  
+ - [Deconvolutional Neural Network](http://habrahabr.ru/company/nordavind/blog/253859/)  
  - [Шпаргалка по разновидностям нейронных сетей](https://tproger.ru/translations/neural-network-zoo-1/)  
  - [Введение в архитектуры нейронных сетей](https://habrahabr.ru/company/oleg-bunin/blog/340184/)  
  - [Нейронные сети в картинках: от одного нейрона до глубоких архитектур](https://habrahabr.ru/post/322438/)  
