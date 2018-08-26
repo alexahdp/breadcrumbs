@@ -1,6 +1,8 @@
 # Интересные и полезные ссылки
 
 ## Программирование
+ - [66 рекомендаций, улучшающих навыки программиста](https://proglib.io/p/prog-skill/)   
+ - [25 ошибок начинающего программиста](https://habr.com/post/413129/)  
  - [Как писать неподдерживаемый код](http://habrahabr.ru/company/friifond/blog/268063/)  
  - [Искусство командной строки](http://habrahabr.ru/post/262127/)  
  - [Шпаргалка по mongodb 1](http://habrahabr.ru/post/259219/)  
@@ -25,6 +27,11 @@
  - [хорошие примеры работы с цветом](http://lifehacker.ru/2015/12/11/12-tools-for-color/)  
  - [Как разобраться в Computer Science самостоятельно](https://tproger.ru/curriculum/computer-science-step-by-step/)  
  - [Как работает js в браузере](https://habr.com/company/ruvds/blog/354070/)  
+
+
+## Менеджмент
+ - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
+ - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
 
 
 ## Трансгуманизм
