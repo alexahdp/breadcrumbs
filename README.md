@@ -8,3 +8,4 @@
 [Книги](./books.md)  
 [Практики](./practices.md)  
 [FrontEnd-Tools](./frontend_tools.md)
+[Видео](./videos.md)
