@@ -7,5 +7,5 @@
 [Паттерны проектирования](./design_patterns.md)  
 [Книги](./books.md)  
 [Практики](./practices.md)  
-[FrontEnd-Tools](./frontend_tools.md)
+[FrontEnd-Tools](./frontend_tools.md)  
 [Видео](./videos.md)
