@@ -9,4 +9,4 @@
 [Практики](./practices.md)  
 [FrontEnd-Tools](./frontend_tools.md)  
 [Видео](./videos.md)  
-[Базы данных](./dbs.md)  
+[Базы данных](./databases.md)  
