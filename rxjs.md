@@ -4,7 +4,9 @@
 
 ## Пример1
 (По клику выводить числа начиная с нуля, каждый клик сбрасывает вывод)
+```javascript
 const button = document.getElementById('test');
 rxjs.fromEvent(button, 'click')
   .pipe(rxjs.operators.switchMap(() => rxjs.interval(1000)))
   .subscribe(t => console.log(t))
+```
