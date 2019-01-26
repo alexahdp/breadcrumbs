@@ -79,3 +79,31 @@ start$
   .pipe(rxjs.operators.scan(acc => ({count: acc.count + 1}), {count: 0}))
   .subscribe(t => console.log(t));
 ```
+
+## Пример5
+Добавим кнопку reset
+```javascript
+const {startWith, switchMapTo, mapTo, scan, takeUntil} = rxjs.operators;
+
+const start = document.getElementById('start');
+const stop = document.getElementById('stop');
+const reset = document.getElementById('reset');
+
+const start$ = rxjs.fromEvent(start, 'click');
+const stop$ = rxjs.fromEvent(stop, 'click');
+const reset$ = rxjs.fromEvent(reset, 'click');
+
+const interval$ = rxjs.interval(1000);
+
+const intervalThatStops$ = interval$
+  .pipe(takeUntil(stop$));
+
+start$
+  .pipe(switchMapTo(rxjs.merge(
+    intervalThatStops$.pipe(mapTo(acc => ({count: acc.count + 1}))),
+    reset$.pipe(mapTo(acc => ({count: 0})))
+  )))
+  .pipe(startWith({count: 0}))
+  .pipe(scan((acc, curr) => curr(acc)))
+  .subscribe(t => console.log(t));
+```
