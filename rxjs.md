@@ -60,3 +60,22 @@ start$
   .pipe(rxjs.operators.switchMapTo(intervalThatStops$))
   .subscribe(t => console.log(t));
 ```
+
+## Пример4
+Добавим сохранение предыдущего состояние с помощью метода .scan(
+```javascript
+const start = document.getElementById('start');
+const stop = document.getElementById('stop');
+
+const start$ = rxjs.fromEvent(start, 'click');
+const stop$ = rxjs.fromEvent(stop, 'click');
+const interval$ = rxjs.interval(1000);
+
+const intervalThatStops$ = interval$
+  .pipe(rxjs.operators.takeUntil(stop$));
+
+start$
+  .pipe(rxjs.operators.switchMapTo(intervalThatStops$))
+  .pipe(rxjs.operators.scan(acc => ({count: acc.count + 1}), {count: 0}))
+  .subscribe(t => console.log(t));
+```
