@@ -107,3 +107,35 @@ start$
   .pipe(scan((acc, curr) => curr(acc)))
   .subscribe(t => console.log(t));
 ```
+
+## Пример6
+Добавим возможность изменять частоту вывода сообщений
+```javascript
+const {startWith, switchMap, switchMapTo, mapTo, scan, takeUntil} = rxjs.operators;
+
+const start = document.getElementById('start');
+const stop = document.getElementById('stop');
+const reset = document.getElementById('reset');
+const half = document.getElementById('half');
+const quarter = document.getElementById('quarter');
+
+const start$ = rxjs.fromEvent(start, 'click');
+const stop$ = rxjs.fromEvent(stop, 'click');
+const reset$ = rxjs.fromEvent(reset, 'click');
+const half$ = rxjs.fromEvent(half, 'click');
+const quarter$ = rxjs.fromEvent(quarter, 'click');
+
+rxjs.merge(
+    start$.pipe(mapTo(1000)),
+    half$.pipe(mapTo(500)),
+    quarter$.pipe(mapTo(250))
+  )
+  .pipe(switchMap(t => rxjs.merge(
+    rxjs.interval(t).pipe(takeUntil(stop$)).pipe(mapTo(acc => ({count: acc.count + 1}))),
+    reset$.pipe(mapTo(acc => ({count: 0})))
+  )))
+  .pipe(startWith({count: 0}))
+  .pipe(scan((acc, curr) => curr(acc)))
+  .subscribe(t => console.log(t));
+
+```
