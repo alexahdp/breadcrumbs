@@ -139,3 +139,18 @@ rxjs.merge(
   .subscribe(t => console.log(t));
 
 ```
+
+## Пример7
+Аггрегируем события через reduce и добавляем ограничение на количество
+```javascript
+const {reduce, takeWhile} = rxjs.operators;
+
+rxjs.interval(500)
+  .pipe(takeWhile(a => a < 10))
+  .pipe(reduce((acc, curr) => acc + curr, 0))
+  .subscribe(
+    t => console.log(t),
+    err => console.log(err),
+    () => console.log('complete')
+  );
+```
