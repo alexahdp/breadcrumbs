@@ -27,6 +27,9 @@
  - [хорошие примеры работы с цветом](http://lifehacker.ru/2015/12/11/12-tools-for-color/)  
  - [Как разобраться в Computer Science самостоятельно](https://tproger.ru/curriculum/computer-science-step-by-step/)  
  - [Как работает js в браузере](https://habr.com/company/ruvds/blog/354070/)  
+ - [Коротко о Lean на примере доставки пиццы](https://habr.com/ru/post/136458/) 
+ - [Сначала говнокод, а потом эволюционный рефакторинг!](https://habr.com/ru/post/172037/)  
+ - [Рентабельный код](https://habr.com/ru/post/233221/)  
 
 
 ## Менеджмент
