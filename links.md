@@ -35,6 +35,7 @@
 ## Менеджмент
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
+ - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)
 
 
 ## Трансгуманизм
