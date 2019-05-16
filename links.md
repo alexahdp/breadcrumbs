@@ -34,6 +34,11 @@
  - [Иллюстративный видеокурс по линейной алгебре: 11 уроков](https://proglib.io/p/algebra/)  
 
 
+## Среда разработки
+[code-server - возможность работать c vscode на сервере](https://github.com/cdr/code-server)
+[sshcode - возможность работать c vscode на сервере](https://github.com/cdr/sshcode)
+
+
 ## Менеджмент
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
