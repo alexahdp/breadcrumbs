@@ -44,6 +44,7 @@
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
  - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
  - [Agile-трансформация](https://habr.com/ru/company/rdtex/blog/452358/)  
+ - [Pi-планирование (многокомандный скрам)](https://habr.com/ru/company/scrumtrek/blog/319460/)  
 
 
 ## Трансгуманизм
