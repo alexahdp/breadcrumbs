@@ -1,0 +1,120 @@
+# Flow-конспект
+
+## Как задать точную форму объекта, чтобы flow ругался на наличие лишних свойств?
+```javascript
+type user = {|
+	name: string,
+	age: number
+|};
+
+const alex: user = {
+	name: 'Alex',
+	age: 29,
+}
+```
+Теперь если в alex окажутся лишние поля, flow выдаст ошибку.
+
+## Как описать метод у функции?
+```javascript
+type funcCall = {
+	ok: (cb) => void,
+	// $call: () => void, - deprecated
+	[[call]]: () => void,
+};
+
+function hello() {}
+hello.ok = ok;
+```
+
+## Как создавать объекты с произвольным набором полей?
+```javascript
+type objMap = {
+	[key: string]: number,
+};
+
+const usersMap = {};
+
+usersMap.alex = 21;
+usersMap.bob = 12;
+```
+
+## Как объединить два типа?
+```javascript
+type nameType = {
+	name: string,
+};
+
+type ageType = {
+	age: number,
+};
+
+type userType = nameType & ageType;
+const alex: userType = {
+	name: 'alex',
+	age: 29,
+};
+```
+
+## Как объединить два типа с пересекающимися полями?
+```javascript
+type nameType = {
+	name: string,
+};
+
+type ageType = {
+	age: number,
+};
+
+// $Exact предотвращает появление mixed-полей
+type userType = {
+	...$Exact<nameType>,
+	...$Exact<ageType>,
+};
+
+const alex: userType = {
+	name: 'alex',
+	age: 29,
+};
+```
+
+## Приведение к типу (кастование)
+```javascript
+(u: user)
+((u: empty): user)
+```
+
+
+## Disjoint unions - выведение свойств для объединенных типов
+```javascript
+type successResponseT = {|
+	success: true,
+	data: {
+		meta: string,
+	},
+|};
+
+type errorResponseT = {|
+	success: false,
+	error: string,
+|};
+
+type Response = successResponseT | errorResponseT;
+
+function handleResponse(r: Response) {
+	if (response.error) {
+		console.log(response.data.meta.includes('something'));
+	}
+}
+```
+
+## structured typing и nominal typing
+structured typing - можно значению одного составного типа присводить значение другого составного типа при
+условии, что у них совпдают вложенные типы  
+nominal typing - при присвоении типы должны строго совпадать (как в java)  
+
+
+## замена типов
+ - **ковариантность** - возможность замены типа на более общий  
+ - **контрвариантность** - возможность замены типа на более конкретный  
+ - **инвариантность** - строгость типа, без возможности замены  
+
