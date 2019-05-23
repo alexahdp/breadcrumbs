@@ -32,6 +32,7 @@
  - [Рентабельный код](https://habr.com/ru/post/233221/)  
  - [10 способов сделать неудачный проект](https://proglib.io/p/project-failure/)  
  - [Иллюстративный видеокурс по линейной алгебре: 11 уроков](https://proglib.io/p/algebra/)  
+ - [Принципы и законы тестируемого кода](https://proglib.io/p/testable-code/)  
 
 
 ## Среда разработки
