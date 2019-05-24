@@ -119,3 +119,60 @@ nominal typing - при присвоении типы должны строго 
  - **контрвариантность** - перенос наследования исходных типов на производные от них типы в обратном порядке. Возвращаемые функцией значение должны быть контрвариантны  
  - **инвариантность** - строгость типа, без возможности замены  
 
+
+##  Как вывести тип из javascript-переменной?
+```javascript
+const languages = {
+	ru: 'ru.json',
+	en: 'en.json',
+	de: 'de.json,
+};
+
+type Language = $Keys<typeof languages>;
+let lang: Language = 'ru';
+```
+ - тут надо понимать, что typeof выполняется на этапе статического анализа, а не непосредственно js-ом
+ Также можно выводить типы из значений:
+ ```javascript
+ // Object.freeze внутри комментария с двоеточием необходим для того, чтобы freeze происходил на этапе стат анализа
+ // чтобы не просаживать производительность js
+ const languages = /*::Object.freeze*'/({
+	ru: 'ru.json',
+	en: 'en.json',
+	de: 'de.json,
+}/*::*/);
+
+type LanguageFile = $Values<typeof languages>;
+let i18n: LanguageFile = 'ru.json';
+ ```
+ 
+ ## Как вывести тип с необязательными полями из другого типа?
+ ```javascript
+ const User = {
+ 	name: string,
+	age: number,
+ };
+ 
+ // во втором аргументе теперь все поля из типа User являются опциональными
+ function update(u: User, data: $Shape<User>) {...}
+ 
+ update({name: 'alex', age: 29}, {age: 30});
+ ```
+ 
+ ## Как получить свойство типа-объекта в виде отдельного типа?
+```javascript
+type User = {
+	name: string,
+	contacts: {
+		email: string,
+		phone: string,
+	}
+};
+
+type Contact = $PropertyType<User, 'contacts'>;
+const contact: Contact = {email: 'aaa@gmail.com', phone: '1234'};
+```
+$PropertyType принимает в качестве второго параметра только строку, переменную ему передать нельзя.
+Эту проблему решает $ElementType
+
+
