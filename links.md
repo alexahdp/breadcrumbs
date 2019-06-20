@@ -33,6 +33,7 @@
  - [10 способов сделать неудачный проект](https://proglib.io/p/project-failure/)  
  - [Иллюстративный видеокурс по линейной алгебре: 11 уроков](https://proglib.io/p/algebra/)  
  - [Принципы и законы тестируемого кода](https://proglib.io/p/testable-code/)  
+ - [Чему я научился за 30 лет программирования](https://habr.com/ru/company/mailru/blog/456862/)  
 
 
 ## Среда разработки
