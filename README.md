@@ -6,7 +6,6 @@
 [Паттерны проектирования](./design_patterns.md)  
 [Книги](./books.md)  
 [Практики](./practices.md)  
-[Видео](./videos.md)  
 [Базы данных](./databases.md)  
 
 [FrontEnd-Tools](./frontend_tools.md)  
