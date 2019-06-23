@@ -10,3 +10,4 @@
 [FrontEnd-Tools](./frontend_tools.md)  
 [Видео](./videos.md)  
 [Базы данных](./databases.md)  
+[Машинное обучение](./ml/README.md)  
