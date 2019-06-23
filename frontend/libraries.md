@@ -1,4 +1,4 @@
-# FrontEnd-Tools
+# FrontEnd Tools and libraries
 
 **redux-form**   
   - Недостаток: все действия проходят через redux   
