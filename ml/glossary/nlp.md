@@ -66,3 +66,6 @@ GloVe
 ## Посмотреть:
 https://explosion.ai/blog/parsing-english-in-python
 
+## Bert
+## XLnet
+https://habr.com/ru/company/ods/blog/458928/
