@@ -81,6 +81,7 @@
  - [Tensorflow Embedding Projector](https://towardsdatascience.com/visualizing-bias-in-data-using-embedding-projector-649bc65e7487)
  - [Статья про разработку LSTM + ссылки](https://habr.com/ru/post/452356/)  
  - [Local Response Normalization(LRN)](https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac)  
+ - [Галерея лучших блокнотов по ML и Data Science](https://habr.com/ru/post/460321/)
 
 
 ## Датасеты/Данные
