@@ -82,6 +82,7 @@
  - [Статья про разработку LSTM + ссылки](https://habr.com/ru/post/452356/)  
  - [Local Response Normalization(LRN)](https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac)  
  - [Галерея лучших блокнотов по ML и Data Science](https://habr.com/ru/post/460321/)
+ - [Multilingual universal sentence encoder](https://ai.googleblog.com/2019/07/multilingual-universal-sentence-encoder.html)
 
 
 ## Датасеты/Данные
