@@ -47,6 +47,7 @@
  - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
  - [Agile-трансформация](https://habr.com/ru/company/rdtex/blog/452358/)  
  - [Pi-планирование (многокомандный скрам)](https://habr.com/ru/company/scrumtrek/blog/319460/)  
+ - [Как дискомфорт помогает нам совершенствовать процесс разработки](https://habr.com/ru/company/true_engineering/blog/465817/)
 
 
 ## Трансгуманизм
