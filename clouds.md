@@ -1,6 +1,9 @@
 # Cloud infrastructure
 Этот документ содержит список популярных облачных технологий с очень короткими описаниями их сути
 
+## Базы данных
+ - [Cassandra](./dbs/cassandra.md)  
+ - [ClickHouse](./dbs/clickhouse.md)  
 
 ## graphite
 Система для сбора и построения метрик по time-series-data. Состоит из трех компонентов:  
