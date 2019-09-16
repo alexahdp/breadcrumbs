@@ -3,6 +3,7 @@ Machine learning notes and examples
 
 ## Теория
  - [Основные термины и определения](./glossary/common.md)  
+ - [Оптимизаторы](./glossary/optimizers.md)
  - [Методы регрессии](./glossary/regression.md)  
  - [Методы классификации](./glossary/classification.md)  
  - [Методы кластеризации](./glossary/clasterization.md)  
