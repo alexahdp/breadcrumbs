@@ -8,6 +8,7 @@ Machine learning notes and examples
  - [Методы классификации](./glossary/classification.md)  
  - [Методы кластеризации](./glossary/clasterization.md)  
  - [Деревья принятия решений](./glossary/decision_trees.md)  
+ - [Планирование и проведение эксперимента](./glossary/experiment_planning.md)
  - [Ссылки](./glossary/links.md)  
 
 
