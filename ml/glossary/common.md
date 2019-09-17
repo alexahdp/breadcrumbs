@@ -49,7 +49,7 @@ TPR = TP / (TP + FN)
 FPR = FP / (FP + TN)
 ```
 
-![acc-prec-rec](./images/confusion-venn.png)
+<img src="./images/confusion-venn.png" width=500 alt="acc-prec-rec" />
 
 **Accuracy** - доля правильных ответов алгоритма
 ```python
@@ -206,7 +206,7 @@ X` = (X - mean) / sigma
 newtrain = train[(np.abs(stats.zscore(train.select_dtypes(include=np.number))) < 3).all(axis=1)]
 ```
 Математический смысл данной операции:  
-![zscore](./images/FJyli3W.jpg)
+<img src="./images/FJyli3W.jpg" width="450" alt="zscore" />
 
 
 ### Комбинирование моделей
