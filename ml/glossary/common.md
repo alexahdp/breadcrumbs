@@ -66,6 +66,11 @@ P = (true_positive) / (true_positive + false_positive)
 R = (true_positive) / (true_positive + false_negative)
 ```
 
+**Misclassification Rate (MISC)** - доля ответов с неверными классами.
+```python
+MISC = 100% - Accuracy
+```
+
 **F-мера** - среднее гармоническое presicion и recall  
 (можно с различным весом учитывать точность и полноту)  
 ```python
