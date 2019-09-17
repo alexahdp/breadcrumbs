@@ -13,7 +13,7 @@
 ### Hard-skills
  * [Паттерны проектирования](./design_patterns.md)  
  * [Шпаргалка по структурам данных](./data_structures.md)  
- * [Базы данных](./databases.md)  
+ * [Базы данных](./dbs)  
 
 ### Conclusions
  * [Практики](./practices.md)  
