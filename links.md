@@ -101,3 +101,4 @@
 ## Other
  - [Лекции Техносферы: Программирование на Go](https://habrahabr.ru/company/mailru/blog/327966/)  
  - [Real-Time Fluid Dynamics for Games](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)  
+ - [Довольно интересное исследование конвеевских клеточных автоматов](https://habr.com/ru/post/455958/)  
