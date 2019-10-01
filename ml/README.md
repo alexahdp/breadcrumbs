@@ -4,10 +4,10 @@ Machine learning notes and examples
 ## Теория
  - [Основные термины и определения](./glossary/common.md)  
  - [Оптимизаторы](./glossary/optimizers.md)
- - [Методы регрессии](./glossary/regression.md)  
- - [Методы классификации](./glossary/classification.md)  
- - [Методы кластеризации](./glossary/clasterization.md)  
- - [Деревья принятия решений](./glossary/decision_trees.md)  
+ - [Классические методы машинного обучения](./glossary/classics.md)  
+ - [Нейронные сети](./glossary/neural_networks.md)  
+ - [Natural language processing](./glossary/nlp.md)  
+ - [Известные архитектуры и их краткое описание](./glossary/architectures.md)  
  - [Планирование и проведение эксперимента](./glossary/experiment_planning.md)
  - [Ссылки](./glossary/links.md)  
 
