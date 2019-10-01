@@ -2,14 +2,14 @@
 Machine learning notes and examples
 
 ## Теория
- - [Основные термины и определения](./ml/glossary/common.md)  
- - [Оптимизаторы](./ml/glossary/optimizers.md)
- - [Методы регрессии](./ml/glossary/regression.md)  
- - [Методы классификации](./ml/glossary/classification.md)  
- - [Методы кластеризации](./ml/glossary/clasterization.md)  
- - [Деревья принятия решений](./ml/glossary/decision_trees.md)  
- - [Планирование и проведение эксперимента](./ml/glossary/experiment_planning.md)
- - [Ссылки](./ml/glossary/links.md)  
+ - [Основные термины и определения](./glossary/common.md)  
+ - [Оптимизаторы](./glossary/optimizers.md)
+ - [Методы регрессии](./glossary/regression.md)  
+ - [Методы классификации](./glossary/classification.md)  
+ - [Методы кластеризации](./glossary/clasterization.md)  
+ - [Деревья принятия решений](./glossary/decision_trees.md)  
+ - [Планирование и проведение эксперимента](./glossary/experiment_planning.md)
+ - [Ссылки](./glossary/links.md)  
 
 
 ## Практика
