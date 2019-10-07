@@ -56,4 +56,5 @@ LightGBM основан на принципе GOSS(Gradient Based One Side Sampl
 ### Ссылки
 [XGBoost](http://neerc.ifmo.ru/wiki/index.php?title=XGBoost)  
 [What makes LightGBM lightning fast?](https://medium.com/@abhisheksharma_57055/what-makes-lightgbm-lightning-fast-a27cf0d9785e)  
+[LightGBM and XGBoost Explained](http://mlexplained.com/2018/01/05/lightgbm-and-xgboost-explained/)  
 [Принцип работы CatBoost](https://habr.com/ru/company/yandex/blog/458790/)  
