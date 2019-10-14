@@ -1,5 +1,4 @@
 # Наиболее известные архитектуры
-https://habr.com/ru/company/nixsolutions/blog/430524/
 
 ## LeNet (1994)
 По сути, первая сверточная нейронная сеть. В ней было всего 3 слоя: convolution, pooling, non-lenearity.
