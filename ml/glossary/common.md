@@ -122,8 +122,8 @@ L(f,y) = exp(-yf)
 
 **cross-entropy loss** - среднее число бит между предсказанной и истинной вероятностями 
 принадлежности к классу  
+![cross-entropy loss](https://wikimedia.org/api/rest_v1/media/math/render/svg/9d83fbf47ec6b26a4d63e9a07f919ec2a0b8f081)
 ```python
-H(p,q) = -SUM(p(x) * log(q(x)))
 p - предсказанная вероятность  
 q - истинная
 ```
