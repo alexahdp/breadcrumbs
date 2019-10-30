@@ -18,7 +18,7 @@ Machine learning notes and examples
 3. -- [LinearRegression, RandomForestRegression, RandomForestClassifier, GridSearchCV](./lesson3/index.ipynb)--  
 4. [KNN, cross_validation](./lesson4/index.ipynb)  
 5. [Classification (LogisticRegression, KNN, SVC)](./lesson5/index.ipynb)  
-6. [TSNE, KMeans](./lesson6/index.ipynb)  
+6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 7. [Decision Tree vs KNN](./lesson7/index.ipynb)  
 8. [Предсказание стоимости квартир (RandomForest, LinearRegression, KNN)](./lesson8/index.ipynb)  
 
