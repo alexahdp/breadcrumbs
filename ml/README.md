@@ -24,4 +24,4 @@ Machine learning notes and examples
 
 #### Boston house prices
 Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых  
-[Ссылка](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
+[Kaggle](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
