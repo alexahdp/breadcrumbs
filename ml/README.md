@@ -18,6 +18,11 @@ Machine learning notes and examples
 6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 
 
+### Mnist2 - digits recognition
+Довольно простая работа в CNN по распознаванию чисел. Есть интересные визуализации.
+**Использованные модели**:  
+ - нейронная сеть на Keras с одним скрытым слоем  
+[Kaggle](https://www.kaggle.com/alexahdp/mnist2)  
 
 
 ### Titanic: machine learning for disaster
@@ -31,6 +36,7 @@ Machine learning notes and examples
  - XGBClassifier  
 
 Большая часть моделей была использована просто для эксперимента, лучшие результаты, как и ожидалось, у XGBClassifier. Также в данной работе присутствует использование ансамбля моделей через VotingClassifier.  
+[Kaggle](https://www.kaggle.com/alexahdp/titanic-dataset)  
 
 **TODO**:  
  - что там делаетLogisticRegression?
