@@ -34,7 +34,9 @@ Machine learning notes and examples
  - SVC  
  - Perceptron  
  - XGBClassifier  
+
 Большая часть моделей была использована просто для эксперимента, лучшие результаты, как и ожидалось, у XGBClassifier. Также в данной работе присутствует использование ансамбля моделей через VotingClassifier.  
+
 **TODO**:  
  - что там делаетLogisticRegression?
  - надо бы хоть какую-то виуализацию данных добавить
@@ -49,8 +51,10 @@ Machine learning notes and examples
  - RandomForestRegressor
  - KNeighborsRegressor
  - XGBRegressor  
+
 Лучший результат оказался у XGBRegressor. К сожалению, отсутствует подбор гиперпараметров.  
 [Kaggle](https://www.kaggle.com/alexahdp/flat-price-predict)  
+
 **TODO**:  
  - в конце скрипт падает, надо поправить это  
 
