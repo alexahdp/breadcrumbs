@@ -21,3 +21,7 @@ Machine learning notes and examples
 6. [TSNE, KMeans](./lesson6/index.ipynb)  
 7. [Decision Tree vs KNN](./lesson7/index.ipynb)  
 8. [Предсказание стоимости квартир (RandomForest, LinearRegression, KNN)](./lesson8/index.ipynb)  
+
+#### Boston house prices
+Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых  
+[Ссылка](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
