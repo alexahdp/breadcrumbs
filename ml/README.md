@@ -18,14 +18,14 @@ Machine learning notes and examples
 6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 
 
-### Mnist2 - digits recognition
+### Mnist2 - digits recognition [Kaggle](https://www.kaggle.com/alexahdp/mnist2)  
 Довольно простая работа в CNN по распознаванию чисел. Есть интересные визуализации.
 **Использованные модели**:  
  - нейронная сеть на Keras с одним скрытым слоем  
-[Kaggle](https://www.kaggle.com/alexahdp/mnist2)  
 
 
-### Titanic: machine learning for disaster
+
+### Titanic: machine learning for disaster [Kaggle](https://www.kaggle.com/alexahdp/titanic-dataset)  
 Стандартный и всеми избитый датасет с данными о выживших на Титанике. Задача классификации, необходимо предсказать кто из пассажиров выживет. Задача интересна тем, что необходимо догадаться извлечь из имени пол. Выживаемость пассажиров оказалась очень сильно скоррелированной с полом. Присутствует чистка данных, никакой особой визуализации.
 **Использованные модели**:  
  - DecisionTreeClassifier  
@@ -36,7 +36,6 @@ Machine learning notes and examples
  - XGBClassifier  
 
 Большая часть моделей была использована просто для эксперимента, лучшие результаты, как и ожидалось, у XGBClassifier. Также в данной работе присутствует использование ансамбля моделей через VotingClassifier.  
-[Kaggle](https://www.kaggle.com/alexahdp/titanic-dataset)  
 
 **TODO**:  
  - что там делаетLogisticRegression?
@@ -45,7 +44,7 @@ Machine learning notes and examples
  - подбор гиперпараметров
 
 
-### Flat prices prediction
+### Flat prices prediction [Kaggle](https://www.kaggle.com/alexahdp/flat-price-predict)  
 Задача регрессии. Присутствует исследование датасета, чистка данных, визуализация.  
 **Использованные модели**:  
  - LinearRegression
@@ -54,12 +53,9 @@ Machine learning notes and examples
  - XGBRegressor  
 
 Лучший результат оказался у XGBRegressor. К сожалению, отсутствует подбор гиперпараметров.  
-[Kaggle](https://www.kaggle.com/alexahdp/flat-price-predict)  
-
 **TODO**:  
  - в конце скрипт падает, надо поправить это  
 
 
-### Boston house prices
+### Boston house prices [Kaggle](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
 Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых.  
-[Kaggle](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
