@@ -22,6 +22,39 @@ Machine learning notes and examples
 7. [Decision Tree vs KNN](./lesson7/index.ipynb)  
 8. [Предсказание стоимости квартир (RandomForest, LinearRegression, KNN)](./lesson8/index.ipynb)  
 
+
+
+
+#### Titanic: machine learning for disaster
+Стандартный и всеми избитый датасет с данными о выживших на Титанике. Задача классификации, необходимо предсказать кто из пассажиров выживет. Задача интересна тем, что необходимо догадаться извлечь из имени пол. Выживаемость пассажиров оказалась очень сильно скоррелированной с полом. Присутствует чистка данных, никакой особой визуализации.
+**Использованные модели**:  
+ - DecisionTreeClassifier  
+ - RandomForestClassifier  
+ - KNeighborsClassifier  
+ - SVC  
+ - Perceptron  
+ - XGBClassifier  
+Большая часть моделей была использована просто для эксперимента, лучшие результаты, как и ожидалось, у XGBClassifier. Также в данной работе присутствует использование ансамбля моделей через VotingClassifier.
+**TODO**:  
+ - что там делаетLogisticRegression?
+ - надо бы хоть какую-то виуализацию данных добавить
+ - неплохо бы добавить использование CatBoost
+ - подбор гиперпараметров
+
+
+#### Flat prices prediction
+Задача регрессии. Присутствует исследование датасета, чистка данных, визуализация.  
+**Использованные модели**:  
+ - LinearRegression
+ - RandomForestRegressor
+ - KNeighborsRegressor
+ - XGBRegressor  
+Лучший результат оказался у XGBRegressor. К сожалению, отсутствует подбор гиперпараметров.  
+[Kaggle](https://www.kaggle.com/alexahdp/flat-price-predict)  
+**TODO**:  
+ - в конце скрипт падает, надо поправить это  
+
+
 #### Boston house prices
-Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых  
+Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых.  
 [Kaggle](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
