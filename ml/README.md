@@ -25,7 +25,7 @@ Machine learning notes and examples
 
 
 
-#### Titanic: machine learning for disaster
+### Titanic: machine learning for disaster
 Стандартный и всеми избитый датасет с данными о выживших на Титанике. Задача классификации, необходимо предсказать кто из пассажиров выживет. Задача интересна тем, что необходимо догадаться извлечь из имени пол. Выживаемость пассажиров оказалась очень сильно скоррелированной с полом. Присутствует чистка данных, никакой особой визуализации.
 **Использованные модели**:  
  - DecisionTreeClassifier  
@@ -44,7 +44,7 @@ Machine learning notes and examples
  - подбор гиперпараметров
 
 
-#### Flat prices prediction
+### Flat prices prediction
 Задача регрессии. Присутствует исследование датасета, чистка данных, визуализация.  
 **Использованные модели**:  
  - LinearRegression
@@ -59,6 +59,6 @@ Machine learning notes and examples
  - в конце скрипт падает, надо поправить это  
 
 
-#### Boston house prices
+### Boston house prices
 Линейная регрессия для предсказания стоимости жилья. Никакого исследования данных, никакой чистки. Прменяется только LinearRegression и RandomForestRegressor. Довольно слабая работа, одна из самых первых.  
 [Kaggle](https://www.kaggle.com/alexahdp/boston-house-prices-regression)  
