@@ -18,6 +18,16 @@ Machine learning notes and examples
 6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 
 
+### BBC texts categorization [Kaggle](https://www.kaggle.com/alexahdp/bbc-texts-categorization)  
+Категоризация текстов. Это первая попытка работы с NLP. Присутствует токенизация текстов, модель обучается по принципу BagOfWords.  
+**Использованные модели**:  
+ - нейросеть на Keras с одним скрытым слоем  
+**TODO**:
+ - лемматизация  
+ - удаление стоп-слов  
+ - LSTM, скорее всего, покажет лучшее качество  
+
+
 ### Mnist2 - digits recognition [Kaggle](https://www.kaggle.com/alexahdp/mnist2)  
 Довольно простая работа в CNN по распознаванию чисел. Есть интересные визуализации.
 **Использованные модели**:  
