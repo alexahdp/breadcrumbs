@@ -15,9 +15,6 @@ Machine learning notes and examples
 ## Практика
 1. [pandas, numpy](./lesson1/index.md), [google apps datastore analyze](./lesson1/index2.ipynb), [scipy.polyfit](./lesson1/scipy.ipynb)  
 2. [pyplot](./lesson2/index.md)  
-3. -- [LinearRegression, RandomForestRegression, RandomForestClassifier, GridSearchCV](./lesson3/index.ipynb)--  
-4. [KNN, cross_validation](./lesson4/index.ipynb)  
-5. [Classification (LogisticRegression, KNN, SVC)](./lesson5/index.ipynb)  
 6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 
 
