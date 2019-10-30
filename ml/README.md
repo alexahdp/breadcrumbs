@@ -18,6 +18,15 @@ Machine learning notes and examples
 6. [TSNE, KMeans](./lesson6/index.ipynb) - работа про boston dataset, можно объединить  
 
 
+### Google Play Store - reviews analize [Kaggle](https://www.kaggle.com/alexahdp/google-play-store-apps-reviews-sentiment-analyze)  
+Категоризация отзывов на положительные, отрицательные и нейтральные. Присутствует небольшая чистка данных, удаление стоп-слов,
+лемматизация, токенизация, есть визуализация в виде облака слов.    
+**Использованные модели**:  
+ - нейронная сеть на Keras с регуляризацией через Dropout  
+ - LSTM-сеть на Keras (показала лучшее качество)  
+Можно бы попробовать подобрать параметры и улучшить качество предсказаний, но модель обучается очень долго. При этом, модели еще есть куда расти, коллбэк ранней остановки так и не сработал.  
+
+
 ### BBC texts categorization [Kaggle](https://www.kaggle.com/alexahdp/bbc-texts-categorization)  
 Категоризация текстов. Это первая попытка работы с NLP. Присутствует токенизация текстов, модель обучается по принципу BagOfWords.  
 **Использованные модели**:  
