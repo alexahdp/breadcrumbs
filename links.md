@@ -101,7 +101,18 @@
  - [Крутые шейдеры - 2](http://charliehoey.com/threejs-demos/wireframe-tendrils-shader.html)  
 
 
+## Simulations
+ - [All-atom Molecular Dynamics Simulation of the Bacterial Cytoplasm](https://www.youtube.com/watch?v=5JcFgj2gHx8)  
+ - [Multi Scale Modeling of Chromatin and Nucleosomes](https://www.youtube.com/watch?v=4Z4KwuUfh0A)  
+ - [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw)  
+ - [Evolution Simulator of Creatures Jumping Vertically](https://www.youtube.com/watch?v=DTUlgZ2qLg8)  
+ - [Evolved Electrophysiological Soft Robots](https://www.youtube.com/watch?v=HgWQ-gPIvt4)  
+ - [Evolving Swimming Soft-Bodied Creatures](https://www.youtube.com/watch?v=4ZqdvYrZ3ro)  
+ - [Harnessing evolutionary creativity: evolving soft-bodied animats in simulated physical environments](https://www.youtube.com/watch?v=CXTZHHQ7ZiQ)  
+ - [CHARMM - инструмент для моделирования молекулярных взаимодействий](https://www.charmm.org/charmm/)
+ - [VCell is a unique computational environment for modeling and simulation of cell biology](https://vcell.org/why-vcell)  
+
+
 ## Other
- - [Лекции Техносферы: Программирование на Go](https://habrahabr.ru/company/mailru/blog/327966/)  
  - [Real-Time Fluid Dynamics for Games](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)  
  - [Довольно интересное исследование конвеевских клеточных автоматов](https://habr.com/ru/post/455958/)  
