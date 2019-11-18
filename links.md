@@ -5,22 +5,18 @@
  - [25 ошибок начинающего программиста](https://habr.com/post/413129/)  
  - [Как писать неподдерживаемый код](http://habrahabr.ru/company/friifond/blog/268063/)  
  - [Искусство командной строки](http://habrahabr.ru/post/262127/)  
- - [Шпаргалка по mongodb 1](http://habrahabr.ru/post/259219/)  
- - [Шпаргалка по mongodb 2](http://habrahabr.ru/post/260291/)  
  - [Шпаргалка по SOLID принципам](http://sergeyteplyakov.blogspot.com.es/2014/10/solid.html)  
  - [Пять-основных-принципов-дизайна-классов-S-O-L-I-D](http://info.javarush.ru/translation/2013/08/06/%D0%9F%D1%8F%D1%82%D1%8C-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-S-O-L-I-D-%D0%B2-Java.html)  
  - [10 ошибок, приводящих к оверинжинирингу ПО](https://habrahabr.ru/company/infopulse/blog/306328/)  
  - [Создание архитектуры программы или как проектировать табуретку](https://habrahabr.ru/post/276593/)  
  - [26 сайтов с головоломками и обучающими задачами для разработчиков](https://vc.ru/p/coders-puzzles)  
  - [Тестирование. Фундаментальная теория](https://habrahabr.ru/post/279535/)  
- - [Коллекция практических советов и заметок по вёрстке](https://habrahabr.ru/post/273471/)  
  - [Идеальный программист](https://habrahabr.ru/post/317312/)  
  - [цитаты о программировании](http://tproger.ru/digest/programming-quotes/)  
  - [Линейная алгебра для разработчиков игр](http://habrahabr.ru/post/131931/)  
  - [Курс от Яндекса о том, что должен знать каждый разработчик](http://habrahabr.ru/company/yandex/blog/245869/)  
  - [Как писать неподдерживаемый код](http://learn.javascript.ru/write-unmain-code)  
  - [Неэффективный программист или как взломать свой мозг за 2 дня](http://habrahabr.ru/post/187986/)  
- - [css-стайлгайд от гитхаб](http://forwebdev.ru/css/github-css-styleguide/)  
  - [Набор статей о тонкостях javascript](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/)  
  - [Большая подборка материалов по node.js](https://gist.github.com/dypsilon/5819528)  
  - [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)  
@@ -39,12 +35,7 @@
  - [Хороший разработчик мудр, а не гениален](https://habr.com/ru/post/472946/)  
 
 
-## Среда разработки
-[code-server - возможность работать c vscode на сервере](https://github.com/cdr/code-server)
-[sshcode - возможность работать c vscode на сервере](https://github.com/cdr/sshcode)
-
-
-## Менеджмент
+## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
  - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
@@ -57,7 +48,7 @@
 
 
 ## Трансгуманизм
- - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)
+ - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)  
  - [Почему вам следует загрузить свой разум в суперкомпьютер?](http://habrahabr.ru/company/asus/blog/230827/)  
  - [Декларация независимости Киберпространства](http://www.zhurnal.ru/1/deklare.htm)  
  - [Парадокс Ферми](http://hi-news.ru/space/paradoks-fermi-odinoki-li-my-vo-vselennoj.html)  
@@ -74,6 +65,7 @@
  - [Великолепное руководство по bash-у](http://wiki.bash-hackers.org/)  
  - [Ядро ОС Linux](http://www.opennet.ru/docs/RUS/kernel2prog/)  
  - [ОС Linux](http://www.opennet.ru/docs/RUS/linux_base/linux_base-linux.html.gz)  
+
 
 ## Графика
  - [Много примеров на THREEjs](https://github.com/josdirksen/threejs-cookbook)  
@@ -111,8 +103,6 @@
  - [Harnessing evolutionary creativity: evolving soft-bodied animats in simulated physical environments](https://www.youtube.com/watch?v=CXTZHHQ7ZiQ)  
  - [CHARMM - инструмент для моделирования молекулярных взаимодействий](https://www.charmm.org/charmm/)
  - [VCell is a unique computational environment for modeling and simulation of cell biology](https://vcell.org/why-vcell)  
-
-
-## Other
  - [Real-Time Fluid Dynamics for Games](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)  
  - [Довольно интересное исследование конвеевских клеточных автоматов](https://habr.com/ru/post/455958/)  
+ 
