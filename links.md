@@ -79,6 +79,7 @@
  - [Объяснение комплексных чисел](http://sunandstuff.com/mandelbrot/about/)  
  - [Погода в цветах](https://www.ventusky.com/?p=18;40;2&l=temperature&t=20161221/03)  
  - [Уравнение Навье-Стокса и симуляция жидкостей на CUDA](https://habr.com/ru/post/470742/)  
+ - [Фрактал мандельброта на javascript](https://hacks.mozilla.org/2016/05/a-taste-of-javascripts-new-parallel-primitives/)  
 
 
 ## ACID
