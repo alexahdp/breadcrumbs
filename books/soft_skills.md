@@ -1,6 +1,8 @@
 ### Подборка очерь полезных видео по управлению командой и построению командной работы
  * [Как угробить командную работу - руководство для менеджера](https://www.youtube.com/watch?v=2yG1MUf2boc)  
  * [Инструменты управления большой командой](https://www.youtube.com/watch?v=xEIKydXDrPA)  
+ * [Бизнес и системный анализ для архитекторов](https://www.youtube.com/watch?v=1bBNVWr_pEw&list=PLrCZzMib1e9ryE2N4xMHfbM0fWM8veVQ7)  
+ * [Управление IT-проектами и продуктом](https://www.youtube.com/watch?v=bVJSwGJolSs&list=PLrCZzMib1e9oUFO9saNfPAqBjpQW8v9I-)  
  
 
 ### Менеджмент абсурда  
