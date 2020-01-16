@@ -92,6 +92,7 @@
  - [Beautiful visuals](http://www.ttaass.com/)  
  - [Крутые шейдеры - 1](https://tympanus.net/Development/ScrollSpiral/index3.html)  
  - [Крутые шейдеры - 2](http://charliehoey.com/threejs-demos/wireframe-tendrils-shader.html)  
+ - [Созерцание великого фрактального подобия](https://habr.com/ru/company/mailru/blog/482410/)  
 
 
 ## Simulations
