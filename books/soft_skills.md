@@ -5,6 +5,7 @@
  * [Управление IT-проектами и продуктом](https://www.youtube.com/watch?v=bVJSwGJolSs&list=PLrCZzMib1e9oUFO9saNfPAqBjpQW8v9I-)  
  * [Красная корпоративная культура (часть 1)](https://habr.com/ru/post/483876/)  
  * [Красная корпоративная культура (часть 2)](https://habr.com/ru/post/484468/)  
+ * [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
 
 ### Менеджмент абсурда  
 Детская библия для менеджеров  
