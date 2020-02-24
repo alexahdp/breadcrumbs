@@ -34,6 +34,7 @@
  - [Работа с логами](https://habr.com/ru/company/oleg-bunin/blog/468535/)  
  - [Хороший разработчик мудр, а не гениален](https://habr.com/ru/post/472946/)  
  - [70 вопросов по javascript для собеседования](https://habr.com/ru/post/486820/)  
+ - [Оценка задач в Story Points](https://habr.com/ru/post/489500/)  
 
 
 ## Менеджмент и командная работа
