@@ -95,7 +95,8 @@
  - [Крутые шейдеры - 1](https://tympanus.net/Development/ScrollSpiral/index3.html)  
  - [Крутые шейдеры - 2](http://charliehoey.com/threejs-demos/wireframe-tendrils-shader.html)  
  - [Созерцание великого фрактального подобия](https://habr.com/ru/company/mailru/blog/482410/)  
-
+ - [Fractals with changing colors](https://www.youtube.com/watch?v=YMxZw-KxDUo)  
+ - [Fractals with changing colors 2](https://www.youtube.com/watch?v=XBO_MPKXNiA)  
 
 ## Simulations
  - [All-atom Molecular Dynamics Simulation of the Bacterial Cytoplasm](https://www.youtube.com/watch?v=5JcFgj2gHx8)  
