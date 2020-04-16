@@ -8,7 +8,8 @@
 ### Общее
  * [Подборка цитат о программировании и разработке](./quotes.md)  
  * [Художественная литература](./books/fiction.md)  
- * [Разработка и hard-skills](./books/hard_skills.md)  
+ * [Разработка и hard-skills](./dev/README.md)  
+ * [Разработка в цитатах и выдержках](./books/hard_skills.md)  
  * [Мэнеджмент и soft-skills](./books/soft_skills.md)  
  * [Полезные ссылки](./links.md)  
 
