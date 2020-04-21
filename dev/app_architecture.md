@@ -13,6 +13,7 @@
  * слой данных  
   - обеспечение хранения и доступа к данным  
 
+![Трехслойная архитектура](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CSD_SCHEME.png/1920px-CSD_SCHEME.png)
 
 ### Луковичная архитектура
 Основные принципы:
