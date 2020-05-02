@@ -8,5 +8,6 @@
  * [Структуры данных](./data_structures.md)  
  * [Шаблоны/Паттерны](./design_patterns.md)
  * [Распределенные системы](./distributed_systems.md)
+ * [Big Data](./big-data.md)
  * [Flow.js - примеры](./flow-typing.md)  
  * [rxjs.js - примеры](./rxjs.md)  
