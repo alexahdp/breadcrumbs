@@ -108,3 +108,4 @@ Kubernetes - облачная платформа, которая позволя�
 
 ## Links
 https://herbertograca.com/2017/08/17/mvc-and-its-variants
+https://habr.com/ru/post/500072/
