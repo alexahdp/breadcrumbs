@@ -47,3 +47,4 @@ Bounded context должен быть ровно таким, чтобы ubiquito
 ## Links
 https://habr.com/ru/company/jugru/blog/440772/
 https://fwdays.com/en/event/php-fwdays-17/review/domain-driven-design
+https://habr.com/ru/post/316890/
