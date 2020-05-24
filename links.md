@@ -35,6 +35,7 @@
  - [Хороший разработчик мудр, а не гениален](https://habr.com/ru/post/472946/)  
  - [70 вопросов по javascript для собеседования](https://habr.com/ru/post/486820/)  
  - [Оценка задач в Story Points](https://habr.com/ru/post/489500/)  
+ - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
 
 
 ## Менеджмент и командная работа
