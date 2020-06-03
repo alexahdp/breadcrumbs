@@ -96,3 +96,4 @@
  - http://archive.ics.uci.edu/ml/
  - http://www.image-net.org/
  - [24 датасета для ритейла и ecommerce](https://habr.com/ru/company/skillfactory/blog/504860/)  
+ - [109 бесплатных курсов по Data Science](https://habr.com/ru/company/skillfactory/blog/504878/)  
