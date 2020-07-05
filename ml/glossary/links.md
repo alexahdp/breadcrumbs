@@ -85,6 +85,7 @@
  - [Multilingual universal sentence encoder](https://ai.googleblog.com/2019/07/multilingual-universal-sentence-encoder.html)
  - [Набор библиотек для создания эмбеддингов](https://github.com/MaxwellRebo/awesome-2vec)  
  - [65 бесплатных курсов по Machine Learning от ведущих университетов мира](https://habr.com/ru/company/skillfactory/blog/504882/)  
+ - [Онтол от DeepMind: самые полезные материалы по искусственному интеллекту от мирового лидера](https://habr.com/ru/company/skillfactory/blog/509212/)  
 
 
 
