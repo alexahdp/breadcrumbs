@@ -99,3 +99,5 @@
  - http://www.image-net.org/
  - [24 датасета для ритейла и ecommerce](https://habr.com/ru/company/skillfactory/blog/504860/)  
  - [109 бесплатных курсов по Data Science](https://habr.com/ru/company/skillfactory/blog/504878/)  
+ - [Большие данные: 70 невероятных бесплатных источников данных](https://habr.com/ru/post/510082/)  
+ - [Как научиться Data Science онлайн: 12 шагов от новичка до профи](https://proglib.io/p/kak-nauchitsya-data-science-onlayn-12-shagov-ot-novichka-do-profi-2020-06-30)  
