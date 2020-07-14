@@ -3,6 +3,7 @@ Machine learning notes and examples
 
 ## Теория
  - [Основные термины и определения](./glossary/common.md)  
+ - [Оценка качества/точности моделей](./glossary/quality_control.md)  
  - [Оптимизаторы](./glossary/optimizers.md)
  - [Классические методы машинного обучения](./glossary/classics.md)  
  - [Нейронные сети](./glossary/neural_networks.md)  
