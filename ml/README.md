@@ -8,7 +8,7 @@ Machine learning notes and examples
  - [Нейронные сети](./glossary/neural_networks.md)  
  - [Natural language processing](./glossary/nlp.md)  
  - [Известные архитектуры и их краткое описание](./glossary/architectures.md)  
- - [Планирование и проведение эксперимента](./glossary/experiment_planning.md)
+ - [Алгоритмы проведения исследований](./glossary/experiment_planning.md)
  - [Ссылки](./glossary/links.md)  
 
 
