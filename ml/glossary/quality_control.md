@@ -115,3 +115,17 @@ SQRT(–––––––––––––––––––––––)
 ```python
 SUM(y[i] - y[i]`)^2
 ```
+
+Функции потерь можно разбить на два больших класса:
+1. Категориальные (классификации):
+ - LogLoss
+ - Focal Loss
+ - KL Divergence / Relative entroty
+ - Exponential Loss
+ - Hinge Loss
+2. Регрессионные:
+ - Mean Square Error / Quadratic Loss
+ - Mean Absolute Error
+ - Huber Loss / Smooth Mean Absolute Error
+ - Log cosh Loss
+ - Quantile Loss
