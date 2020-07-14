@@ -50,6 +50,28 @@ B - вес точности в метрике
 
 
 ## Методы измерения ошибок моделей
+Суть этих функций в том, что они используются прямо в процессе обучения, а не для оценки по завершению обучения. Таким образом, суть loss-функции оценить не модель в целом, а конкретный шаг обучения модели.  
+
+Функции потерь можно разбить на два больших класса:
+1. **Регрессионные**:
+ - Mean Square Error / Quadratic Loss
+ - Mean Absolute Error
+ - Huber Loss / Smooth Mean Absolute Error
+ - Log cosh Loss
+ - Quantile Loss
+2. **Категориальные** (классификации):
+ - LogLoss
+ - Focal Loss
+ - KL Divergence / Relative entroty
+ - Exponential Loss
+ - Hinge Loss
+
+### Регрессионные
+
+**MSE(Mean squared error)** - показывает среднеквадратичную ошибку  
+Хороша своей дифференцируемостью, плоха тем, что на выходе дает квадратичную величину, которой сложно пользоваться  
+![MSE](https://miro.medium.com/max/255/1*mlXnpXGdhMefPybSQtRmDA.png)  
+При наличии выбросов, они получают большее внимание (размер коррекции весов), что приводит к большему влияюнию 
 
 **Loss function (функция потерь)** - целевая функция, которую минимизируют алгоритмы обучения.   
 
@@ -90,12 +112,6 @@ p - предсказанная вероятность
 q - истинная
 ```
 
-**MSE(Mean squared error)** - показывает среднеквадратичную ошибку
-Хороша своей дифференцируемостью, плоха тем, что на выходе дает квадратичную величину, которой
-сложно пользоваться
-![MSE](https://miro.medium.com/max/4310/1*vkgzQYMaYeM71bmBYuufUw.png)  
-При наличии выбросов, они получают большее внимание (размер коррекции весов), что приводит к большему влияюнию 
-
 **MAE Mean absolute error** - размер абсолютной ошибки
 ![MAE](https://miro.medium.com/max/4750/1*pSJ6h_P-tCAdSJpdpE56Mg.png)  
 Данная метрика более устойчива по отношении к выбросам.  
@@ -116,16 +132,6 @@ SQRT(–––––––––––––––––––––––)
 SUM(y[i] - y[i]`)^2
 ```
 
-Функции потерь можно разбить на два больших класса:
-1. Категориальные (классификации):
- - LogLoss
- - Focal Loss
- - KL Divergence / Relative entroty
- - Exponential Loss
- - Hinge Loss
-2. Регрессионные:
- - Mean Square Error / Quadratic Loss
- - Mean Absolute Error
- - Huber Loss / Smooth Mean Absolute Error
- - Log cosh Loss
- - Quantile Loss
+
+### Ссылки
+ - [5 Regression Loss Functions All Machine Learners Should Know](https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0)  
