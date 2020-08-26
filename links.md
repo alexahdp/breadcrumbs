@@ -36,6 +36,7 @@
  - [70 вопросов по javascript для собеседования](https://habr.com/ru/post/486820/)  
  - [Оценка задач в Story Points](https://habr.com/ru/post/489500/)  
  - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
+ - [Цифры, которые должен знать каждый разработчик](https://gist.github.com/jboner/2841832)  
 
 
 ## Менеджмент и командная работа
