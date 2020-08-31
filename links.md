@@ -37,6 +37,7 @@
  - [Оценка задач в Story Points](https://habr.com/ru/post/489500/)  
  - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
  - [Цифры, которые должен знать каждый разработчик](https://gist.github.com/jboner/2841832)  
+ - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
 
 
 ## Менеджмент и командная работа
