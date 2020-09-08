@@ -6,7 +6,7 @@
  * [Красная корпоративная культура (часть 1)](https://habr.com/ru/post/483876/)  
  * [Красная корпоративная культура (часть 2)](https://habr.com/ru/post/484468/)  
  * [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
- * [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri/#:~:text=Hoshin%20Kanri%20(%D0%A5%D0%BE%D1%81%D0%B8%D0%BD%20%D0%9A%D0%B0%D0%BD%D1%80%D0%B8%20%D0%B8%D0%BB%D0%B8,%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D0%B2%D1%81%D0%B5%D1%85%20%D0%B5%D0%B5%20%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F%D1%85.)  
+ * [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri)  
 
 ### Менеджмент абсурда  
 Детская библия для менеджеров  
