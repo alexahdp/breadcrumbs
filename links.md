@@ -115,4 +115,5 @@
  - [VCell is a unique computational environment for modeling and simulation of cell biology](https://vcell.org/why-vcell)  
  - [Real-Time Fluid Dynamics for Games](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)  
  - [Довольно интересное исследование конвеевских клеточных автоматов](https://habr.com/ru/post/455958/)  
+ - [Simulation clouds in webgl](http://nielsdaemen.nl/webgl/Weather_Sim/)  
  
