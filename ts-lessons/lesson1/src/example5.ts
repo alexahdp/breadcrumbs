@@ -1,22 +1,42 @@
-// conjunction-types or intersection types
+// структурная типизация
 
-type CandidateStatus = 'new' | 'inProgress' | 'applied';
-
-interface Profile {
-  id: string;
-  email: string;
+interface Vector {
+  x: number;
+  y: number;
 }
 
-interface Candidate {
-  vacancyId: string;
-  status: CandidateStatus; 
+interface NamedVector {
+  name: string;
+  x: number;
+  y: number;
 }
 
-const getCandidate = (): Profile & Candidate => ({
-  id: '123',
-  email: 'alexgmail.com',
-  vacancyId: '1234',
-  status: 'new',
-});
+const getLength = (v: Vector) => Math.sqrt(v.x^2 + v.y^2);
 
-const candidate = getCandidate();
+const normalize = (v: Vector) => {
+  const len = getLength(v);
+  return { x: v.x / len, y: v.y / len };
+}
+
+const beamVector: NamedVector = {
+  name: 'sun',
+  x: 0,
+  y: 0,
+};
+normalize(beamVector);
+
+
+// === 6 ===
+// ОШИБКА!!!
+interface Vector3D {
+  x: number;
+  y: number;
+  z: number;
+}
+const normalize3D = (v: Vector3D) => {
+  const len = getLength(v);
+  return { x: v.x / len, y: v.y / len, z: v.z / len };
+}
+
+// следует заметить, что по причине того, что ts имеет структурную типизацию и не запрещает передачу
+// дополнительных свойств, возникает масса проблем с Object.keys(), Object.values()

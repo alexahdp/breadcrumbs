@@ -1,28 +1,29 @@
-// интерфейсы
+// union-типы
+// сужение типов
 
-const states = [
-  { name: "Alabama", capitol: "Montgomery" },
-  { name: "Alaska", capitol: "Juneau" },
-  { name: "Arizona", capitol: "Phoenix" },
-];
+type numstr = string | number;
 
-for (const state of states) {
-  console.log(state.capital);
+type Candidate = {
+    id: string;
+    experience: string;
 }
 
-
-
-type State = {
-  name: string;
-  capital: string;
+type Vacancy = {
+    id: string;
+    salary: number;
 }
 
-const states2: State[] = [
-  { name: "Alabama", capitol: "Montgomery" },
-  { name: "Alaska", capitol: "Juneau" },
-  { name: "Arizona", capitol: "Phoenix" },
-];
+type CandidateOrVacancy = Candidate | Vacancy
 
-for (const state of states2) {
-  console.log(state.capital);
+function isCandidate(candidate: CandidateOrVacancy): candidate is Candidate {
+    return 'experience' in candidate;
+}
+
+function toStr(entity: CandidateOrVacancy): string {
+  if (isCandidate(entity)) {
+      return entity.experience;
+  } else {
+      entity
+  }
+  return 'unknown';
 }

@@ -1,12 +1,26 @@
-// приведение типов в ts и js
-// union-типы
+// интерфейсы
 
-// неверно
-function getAge(number: string | number) {
-  return  number as number;
+const states = [
+  { name: "Alabama", capitol: "Montgomery" },
+  { name: "Alaska", capitol: "Juneau" },
+  { name: "Arizona", capitol: "Phoenix" },
+];
+
+for (const state of states) {
+  console.log(state.capital);
 }
 
-// верно
-function getAge2(number: string | number) {
-  return  Number(number);
+type State = {
+  name: string;
+  capital: string;
+}
+
+const states2: State[] = [
+  { name: "Alabama", capitol: "Montgomery" },
+  { name: "Alaska", capitol: "Juneau" },
+  { name: "Arizona", capitol: "Phoenix" },
+];
+
+for (const state of states2) {
+  console.log(state.capital);
 }

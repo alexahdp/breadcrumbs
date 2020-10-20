@@ -1,42 +1,40 @@
-// структурная типизация
+// проверка на принадлежность типу
 
-interface Vector {
-  x: number;
-  y: number;
+interface Square {
+  width: number;
+}
+interface Rectangle extends Square {
+  height: number;
 }
 
-interface NamedVector {
-  name: string;
-  x: number;
-  y: number;
+type Shape = Square | Rectangle;
+
+function calculateArea(shape: Shape) {
+  if (shape instanceof Rectangle) {
+    return shape.width * shape.width;
+  } else {
+    return shape.width * shape.width;
+  }
 }
 
-const getLength = (v: Vector) => Math.sqrt(v.x^2 + v.y^2);
+// === 2 ===
 
-const normalize = (v: Vector) => {
-  const len = getLength(v);
-  return { x: v.x / len, y: v.y / len };
+class Square {
+  constructor(public width: number) {}
+  
+}
+class Rectangle extends Square {
+  constructor(public width: number, public height: number) {
+    super(width);
+  }
 }
 
-const beamVector: NamedVector = {
-  name: 'sun',
-  x: 0,
-  y: 0,
-};
-normalize(beamVector);
+type Shape = Square | Rectangle;
 
-
-// === 6 ===
-// ОШИБКА!!!
-interface Vector3D {
-  x: number;
-  y: number;
-  z: number;
+function calculateArea2(shape: Shape) {
+  if (shape instanceof Rectangle) {
+    return shape.width * shape.width;
+  } else {
+    return shape.width * shape.width;
+  }
 }
-const normalize3D = (v: Vector3D) => {
-  const len = getLength(v);
-  return { x: v.x / len, y: v.y / len, z: v.z / len };
-}
-
-// следует заметить, что по причине того, что ts имеет структурную типизацию и не запрещает передачу
-// дополнительных свойств, возникает масса проблем с Object.keys(), Object.values()

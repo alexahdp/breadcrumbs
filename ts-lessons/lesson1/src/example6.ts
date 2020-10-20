@@ -1,19 +1,22 @@
-// отличия интерфейсов от типов
-// 1) расширение: интерфейсы - implements, типы - &
-// интерфейсы могут расширять типы, но не может расширять сложные типы, например, Union-type
-interface IRootState extends State {
-  square: number;
-}
-type TRootState = State & { square: number };
+// conjunction-types or intersection types
 
-// implements работает как с классами, так и с типами
-// type имеет больше возможностей, например:
-type NamedVariable = (Input | Output) & { name: string };
+type CandidateStatus = 'new' | 'inProgress' | 'applied';
 
-// также декларации типов имеют свойство объединяться
-interface Person {
-  name: string;
-}
-interface Person {
+interface Profile {
+  id: string;
   email: string;
 }
+
+interface Candidate {
+  vacancyId: string;
+  status: CandidateStatus; 
+}
+
+const getCandidate = (): Profile & Candidate => ({
+  id: '123',
+  email: 'alexgmail.com',
+  vacancyId: '1234',
+  status: 'new',
+});
+
+const candidate = getCandidate();

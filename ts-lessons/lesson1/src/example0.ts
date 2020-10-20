@@ -22,21 +22,20 @@ const log1 = (msg: string): void => {
   console.log(msg);
 }
 
-const log2 = function(msg: string): void {
-  console.log(msg);
-}
-
 let age: number;
 age = '12'; // error
 // age = '12' as any;
 
-interface User {
+// разница между
+let user1 = 'username';
+const user2 = 'username';
+
+type User = {
   name: string;
 }
 const user = JSON.parse('{ "name": "alex" }') as User;
 
 // noImplicitAny
-
 function add(a, b) {
   return a + b; }
 }
@@ -48,12 +47,5 @@ add(null, 3);
 function error(message: string): never {
   throw new Error(message);
 }
-
-function infiniteLoop(): never {
-  while (true) {
-  }
-}
-
-function infiniteRec(): never {
-  return infiniteRec();
-}
+// бесконечные циклы
+// рекурсии
