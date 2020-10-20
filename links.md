@@ -5,37 +5,57 @@
  - [25 ошибок начинающего программиста](https://habr.com/post/413129/)  
  - [Как писать неподдерживаемый код](http://habrahabr.ru/company/friifond/blog/268063/)  
  - [Искусство командной строки](http://habrahabr.ru/post/262127/)  
- - [Шпаргалка по mongodb 1](http://habrahabr.ru/post/259219/)  
- - [Шпаргалка по mongodb 2](http://habrahabr.ru/post/260291/)  
  - [Шпаргалка по SOLID принципам](http://sergeyteplyakov.blogspot.com.es/2014/10/solid.html)  
  - [Пять-основных-принципов-дизайна-классов-S-O-L-I-D](http://info.javarush.ru/translation/2013/08/06/%D0%9F%D1%8F%D1%82%D1%8C-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%BE%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-S-O-L-I-D-%D0%B2-Java.html)  
  - [10 ошибок, приводящих к оверинжинирингу ПО](https://habrahabr.ru/company/infopulse/blog/306328/)  
  - [Создание архитектуры программы или как проектировать табуретку](https://habrahabr.ru/post/276593/)  
  - [26 сайтов с головоломками и обучающими задачами для разработчиков](https://vc.ru/p/coders-puzzles)  
  - [Тестирование. Фундаментальная теория](https://habrahabr.ru/post/279535/)  
- - [Коллекция практических советов и заметок по вёрстке](https://habrahabr.ru/post/273471/)  
  - [Идеальный программист](https://habrahabr.ru/post/317312/)  
  - [цитаты о программировании](http://tproger.ru/digest/programming-quotes/)  
  - [Линейная алгебра для разработчиков игр](http://habrahabr.ru/post/131931/)  
  - [Курс от Яндекса о том, что должен знать каждый разработчик](http://habrahabr.ru/company/yandex/blog/245869/)  
  - [Как писать неподдерживаемый код](http://learn.javascript.ru/write-unmain-code)  
  - [Неэффективный программист или как взломать свой мозг за 2 дня](http://habrahabr.ru/post/187986/)  
- - [css-стайлгайд от гитхаб](http://forwebdev.ru/css/github-css-styleguide/)  
  - [Набор статей о тонкостях javascript](http://dmitrysoshnikov.com/ecmascript/ru-chapter-2-variable-object/)  
  - [Большая подборка материалов по node.js](https://gist.github.com/dypsilon/5819528)  
  - [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)  
  - [хорошие примеры работы с цветом](http://lifehacker.ru/2015/12/11/12-tools-for-color/)  
  - [Как разобраться в Computer Science самостоятельно](https://tproger.ru/curriculum/computer-science-step-by-step/)  
  - [Как работает js в браузере](https://habr.com/company/ruvds/blog/354070/)  
+ - [Коротко о Lean на примере доставки пиццы](https://habr.com/ru/post/136458/) 
+ - [Сначала говнокод, а потом эволюционный рефакторинг!](https://habr.com/ru/post/172037/)  
+ - [Рентабельный код](https://habr.com/ru/post/233221/)  
+ - [10 способов сделать неудачный проект](https://proglib.io/p/project-failure/)  
+ - [Иллюстративный видеокурс по линейной алгебре: 11 уроков](https://proglib.io/p/algebra/)  
+ - [Принципы и законы тестируемого кода](https://proglib.io/p/testable-code/)  
+ - [Чему я научился за 30 лет программирования](https://habr.com/ru/company/mailru/blog/456862/)  
+ - [Архитектура программного обеспечения переоценена, простой и понятный дизайн — недооценен](https://habr.com/ru/post/467997/)  
+ - [Работа с логами](https://habr.com/ru/company/oleg-bunin/blog/468535/)  
+ - [Хороший разработчик мудр, а не гениален](https://habr.com/ru/post/472946/)  
+ - [70 вопросов по javascript для собеседования](https://habr.com/ru/post/486820/)  
+ - [Оценка задач в Story Points](https://habr.com/ru/post/489500/)  
+ - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
+ - [Цифры, которые должен знать каждый разработчик](https://gist.github.com/jboner/2841832)  
+ - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
 
 
-## Менеджмент
+## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
+ - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
+ - [Agile-трансформация](https://habr.com/ru/company/rdtex/blog/452358/)  
+ - [Pi-планирование (многокомандный скрам)](https://habr.com/ru/company/scrumtrek/blog/319460/)  
+ - [Как дискомфорт помогает нам совершенствовать процесс разработки](https://habr.com/ru/company/true_engineering/blog/465817/)
+  - [Я пережила выгорание, или Как остановить хомячка в колесе](https://habr.com/ru/post/468321/)  
+ - [«Сгоревшие» сотрудники: есть ли выход?](https://habr.com/ru/company/badoo/blog/458792/)  
+ - [«Гори, гори ясно, пока не погасло», или Чем чревато эмоциональное выгорание ваших сотрудников](https://habr.com/ru/post/463511/) 
+ - [Базовое руководство по созданию сбалансированных команд разработчиков](https://habr.com/ru/post/506400/)  
+ - [Мэнеджмент и командная работа](https://habr.com/ru/post/472946/)  
 
 
 ## Трансгуманизм
- - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)
+ - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)  
  - [Почему вам следует загрузить свой разум в суперкомпьютер?](http://habrahabr.ru/company/asus/blog/230827/)  
  - [Декларация независимости Киберпространства](http://www.zhurnal.ru/1/deklare.htm)  
  - [Парадокс Ферми](http://hi-news.ru/space/paradoks-fermi-odinoki-li-my-vo-vselennoj.html)  
@@ -53,6 +73,7 @@
  - [Ядро ОС Linux](http://www.opennet.ru/docs/RUS/kernel2prog/)  
  - [ОС Linux](http://www.opennet.ru/docs/RUS/linux_base/linux_base-linux.html.gz)  
 
+
 ## Графика
  - [Много примеров на THREEjs](https://github.com/josdirksen/threejs-cookbook)  
  - [псевдо 3d -road rush](https://habrahabr.ru/post/325482/)  
@@ -64,6 +85,8 @@
  - [фракталы с управлением](http://hirnsohle.de/test/fractalLab/)  
  - [Объяснение комплексных чисел](http://sunandstuff.com/mandelbrot/about/)  
  - [Погода в цветах](https://www.ventusky.com/?p=18;40;2&l=temperature&t=20161221/03)  
+ - [Уравнение Навье-Стокса и симуляция жидкостей на CUDA](https://habr.com/ru/post/470742/)  
+ - [Фрактал мандельброта на javascript](https://hacks.mozilla.org/2016/05/a-taste-of-javascripts-new-parallel-primitives/)  
 
 
 ## ACID
@@ -76,8 +99,21 @@
  - [Beautiful visuals](http://www.ttaass.com/)  
  - [Крутые шейдеры - 1](https://tympanus.net/Development/ScrollSpiral/index3.html)  
  - [Крутые шейдеры - 2](http://charliehoey.com/threejs-demos/wireframe-tendrils-shader.html)  
+ - [Созерцание великого фрактального подобия](https://habr.com/ru/company/mailru/blog/482410/)  
+ - [Fractals with changing colors](https://www.youtube.com/watch?v=YMxZw-KxDUo)  
+ - [Fractals with changing colors 2](https://www.youtube.com/watch?v=XBO_MPKXNiA)  
 
-
-## Other
- - [Лекции Техносферы: Программирование на Go](https://habrahabr.ru/company/mailru/blog/327966/)  
+## Simulations
+ - [All-atom Molecular Dynamics Simulation of the Bacterial Cytoplasm](https://www.youtube.com/watch?v=5JcFgj2gHx8)  
+ - [Multi Scale Modeling of Chromatin and Nucleosomes](https://www.youtube.com/watch?v=4Z4KwuUfh0A)  
+ - [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw)  
+ - [Evolution Simulator of Creatures Jumping Vertically](https://www.youtube.com/watch?v=DTUlgZ2qLg8)  
+ - [Evolved Electrophysiological Soft Robots](https://www.youtube.com/watch?v=HgWQ-gPIvt4)  
+ - [Evolving Swimming Soft-Bodied Creatures](https://www.youtube.com/watch?v=4ZqdvYrZ3ro)  
+ - [Harnessing evolutionary creativity: evolving soft-bodied animats in simulated physical environments](https://www.youtube.com/watch?v=CXTZHHQ7ZiQ)  
+ - [CHARMM - инструмент для моделирования молекулярных взаимодействий](https://www.charmm.org/charmm/)
+ - [VCell is a unique computational environment for modeling and simulation of cell biology](https://vcell.org/why-vcell)  
  - [Real-Time Fluid Dynamics for Games](http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf)  
+ - [Довольно интересное исследование конвеевских клеточных автоматов](https://habr.com/ru/post/455958/)  
+ - [Simulation clouds in webgl](http://nielsdaemen.nl/webgl/Weather_Sim/)  
+ 
