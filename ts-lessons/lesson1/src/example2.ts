@@ -1,26 +1,42 @@
-// интерфейсы
+// === 1 ===
+// объединение типов
+const successStatus = 'success';
+type Status = 'success' | 'fail';
 
-const states = [
-  { name: "Alabama", capitol: "Montgomery" },
-  { name: "Alaska", capitol: "Juneau" },
-  { name: "Arizona", capitol: "Phoenix" },
-];
+const doOperation = (data: string): Status => {
+  console.log(data);
+  // ...
+  return 'success';
+};
+const result: Status = doOperation('hello');
 
-for (const state of states) {
-  console.log(state.capital);
+
+// ===  2 ===
+// сужение типов
+
+type numstr = string | number;
+
+type Candidate = {
+    id: string;
+    experience: string;
 }
 
-type State = {
-  name: string;
-  capital: string;
+type Vacancy = {
+    id: string;
+    salary: number;
 }
 
-const states2: State[] = [
-  { name: "Alabama", capitol: "Montgomery" },
-  { name: "Alaska", capitol: "Juneau" },
-  { name: "Arizona", capitol: "Phoenix" },
-];
+type CandidateOrVacancy = Candidate | Vacancy
 
-for (const state of states2) {
-  console.log(state.capital);
+function isCandidate(candidate: CandidateOrVacancy): candidate is Candidate {
+    return 'experience' in candidate;
+}
+
+function toStr(entity: CandidateOrVacancy): string {
+  if (isCandidate(entity)) {
+      return entity.experience;
+  } else {
+      entity
+  }
+  return 'unknown';
 }

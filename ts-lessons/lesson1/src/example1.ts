@@ -1,29 +1,9 @@
-// union-типы
-// сужение типов
+// Примеры валидного js-кода и невалидного ts-кода:
 
-type numstr = string | number;
+null + 7 = 7
+[] + 2 = "2"
+undefined + 4 = NaN
 
-type Candidate = {
-    id: string;
-    experience: string;
-}
 
-type Vacancy = {
-    id: string;
-    salary: number;
-}
-
-type CandidateOrVacancy = Candidate | Vacancy
-
-function isCandidate(candidate: CandidateOrVacancy): candidate is Candidate {
-    return 'experience' in candidate;
-}
-
-function toStr(entity: CandidateOrVacancy): string {
-  if (isCandidate(entity)) {
-      return entity.experience;
-  } else {
-      entity
-  }
-  return 'unknown';
-}
+// это будет валидно и там, и там
+'5' + 3 = "53"
