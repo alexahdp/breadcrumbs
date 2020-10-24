@@ -1,8 +1,10 @@
+import { Controller } from './controller.js';
 import { Renderer } from './renderer.js';
 import { Visualizer } from './visualizer.js';
 
 const canvas = document.getElementById('screen');
 const renderer = new Renderer(canvas);
+const controller = new Controller();
 
 let currentLine = null;
 let nearestNode = null;
@@ -15,7 +17,7 @@ const getEventCoords = e => {
 
 canvas.addEventListener('dblclick', e => {
   const [x, y] = getEventCoords(e);
-  renderer.addNode({ x, y, r: 10 });
+  controller.addNode({ x, y, r: 10 });
 });
 
 
@@ -32,7 +34,7 @@ canvas.addEventListener('mouseup', e => {
   if (currentLine) {
     if (nearestNode) {
       currentLine.to = nearestNode;
-      renderer.addLine(currentLine);
+      renderer.controller(currentLine);
     }
     currentLine = null;
   }
@@ -44,24 +46,24 @@ canvas.addEventListener('mousemove', e => {
     currentLine.to.y = e.offsetY;
   }
   const [x, y] = getEventCoords(e);
-  nearestNode = renderer.getNearestNode(x, y);
+  nearestNode = controller.getNearestNode(x, y);
 });
 
 let visualizeAnimator = null;
 const startButton = document.getElementById('start');
 startButton.addEventListener('click', e => {
-  const visualizer = new Visualizer(renderer, renderer.nodes[0]);
+  const visualizer = new Visualizer(renderer, controller.nodes[0]);
   visualizeAnimator = visualizer.animator();
 });
 
 const saveButton = document.getElementById('save');
 saveButton.addEventListener('click', e => {
-  renderer.save();
+  controller.save();
 });
 
 const loadButton = document.getElementById('load');
 loadButton.addEventListener('click', e => {
-  renderer.restore();
+  controller.restore();
 });
 
 renderer.addAnimation((canvas, ctx) => {
@@ -77,8 +79,14 @@ renderer.addAnimation((canvas, ctx) => {
     if (!state.done) {
       renderer.drawNode(state.value.node, state.value.opts);
     }
-  }
-  
+  }  
 });
 
-renderer.animate();
+function animate() {
+  renderer.animate(controller.nodes, controller.lines);
+  requestAnimationFrame(animate);
+}
+
+requestAnimationFrame(animate);
+
+
