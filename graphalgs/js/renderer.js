@@ -13,6 +13,8 @@ export class Renderer {
   }  
 
   drawNode(node, opts = {}) {
+    // console.log('===')
+    // console.log(node, opts)
     const ctx = this.canvas.getContext('2d');
     ctx.beginPath();
     ctx.arc(node.x, node.y, node.r, 0, Math.PI*2, true);

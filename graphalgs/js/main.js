@@ -34,7 +34,7 @@ canvas.addEventListener('mouseup', e => {
   if (currentLine) {
     if (nearestNode) {
       currentLine.to = nearestNode;
-      renderer.controller(currentLine);
+      controller.addLine(currentLine);
     }
     currentLine = null;
   }
@@ -77,7 +77,10 @@ renderer.addAnimation((canvas, ctx) => {
     const state = visualizeAnimator.next();
     
     if (!state.done) {
-      renderer.drawNode(state.value.node, state.value.opts);
+      console.log('+++')
+      state.value.forEach(value => {
+        renderer.drawNode(value.node, value.opts);
+      });
     }
   }  
 });
