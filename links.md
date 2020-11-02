@@ -38,6 +38,8 @@
  - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
  - [Цифры, которые должен знать каждый разработчик](https://gist.github.com/jboner/2841832)  
  - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
+ - [Глубже в дебри ФП](https://habr.com/ru/post/506782/)  
+ - [Функциональное программирование на typescript](https://habr.com/ru/post/526024/)  
 
 
 ## Менеджмент и командная работа
