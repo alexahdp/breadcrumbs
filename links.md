@@ -40,6 +40,7 @@
  - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
  - [Глубже в дебри ФП](https://habr.com/ru/post/506782/)  
  - [Функциональное программирование на typescript](https://habr.com/ru/post/526024/)  
+ - [Принципы устройства в памяти javascript-объектов](https://mathiasbynens.be/notes/shapes-ics)  
 
 
 ## Менеджмент и командная работа
