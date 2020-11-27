@@ -40,7 +40,11 @@
  - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
  - [Глубже в дебри ФП](https://habr.com/ru/post/506782/)  
  - [Функциональное программирование на typescript](https://habr.com/ru/post/526024/)  
- - [Принципы устройства в памяти javascript-объектов](https://mathiasbynens.be/notes/shapes-ics)  
+ - [Принципы устройства хранения объектов в javascript](https://mathiasbynens.be/notes/shapes-ics)  
+ - [Визуализация различных структур данных](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)  
+ - [Сайт Ильи Кантора с примерами структур данных, алгоритмов, ...](http://algolist.manual.ru/)  
+ - [Реализация популярных алгоритмов на javascript](https://github.com/trekhleb/javascript-algorithms)
+ 
 
 
 ## Менеджмент и командная работа
