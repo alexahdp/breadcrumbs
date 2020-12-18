@@ -45,6 +45,7 @@
  - [Сайт Ильи Кантора с примерами структур данных, алгоритмов, ...](http://algolist.manual.ru/)  
  - [Реализация популярных алгоритмов на javascript](https://github.com/trekhleb/javascript-algorithms)  
  - [Построение карьеры](https://habr.com/ru/post/533764/)  
+ - [Microservice Architecture and its 10 Most Important Design Patterns](https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41)  
  
 
 
