@@ -47,6 +47,7 @@
  - [Построение карьеры](https://habr.com/ru/post/533764/)  
  - [Microservice Architecture and its 10 Most Important Design Patterns](https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41)  
  - [Видео: саги - поддержание целостности данных в микросервисной архитектуре](https://www.youtube.com/watch?v=7kX3fs0pWwc)  
+ - [Функциональное программирование на javascript - примеры](https://habr.com/ru/company/mailru/blog/327522/)  
 
 
 ## Менеджмент и командная работа
