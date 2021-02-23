@@ -48,7 +48,10 @@
  - [Microservice Architecture and its 10 Most Important Design Patterns](https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41)  
  - [Видео: саги - поддержание целостности данных в микросервисной архитектуре](https://www.youtube.com/watch?v=7kX3fs0pWwc)  
  - [Функциональное программирование на javascript - примеры](https://habr.com/ru/company/mailru/blog/327522/)  
-
+ - [Все о разработке микросервисов (типичные проблемы и способы их решения)](https://microservices.io/)  
+ - [Архитектурные хроники](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/)  
+ - [Построение микросервисов на .Net](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/)  
+ - [Разработка с использованием саг](http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html)  
 
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
