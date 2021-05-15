@@ -67,6 +67,7 @@
  - [Мэнеджмент и командная работа](https://habr.com/ru/post/472946/)  
  - [Как говорить с сотрудниками. 7 аспектов, о которых забывают](https://habr.com/ru/post/525948/)  
  - [Рентабельность инвестиций в Канбан](https://systemskill.ru/tpost/dblmc81c81-rentabelnost-investitsii-v-kanban-chast)  
+ - [Message Queues in Database Transactions](https://medium.com/galvanize/message-queues-in-database-transactions-f830718f4f12)  
 
 
 ## Трансгуманизм
