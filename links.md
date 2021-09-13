@@ -53,6 +53,9 @@
  - [Построение микросервисов на .Net](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/)  
  - [Разработка с использованием саг](http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html)  
 
+## Микросервисы
+ - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
+
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
