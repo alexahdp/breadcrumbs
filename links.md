@@ -38,7 +38,23 @@
  - [Отличный набор вопросов и ответов по React](https://github.com/sudheerj/reactjs-interview-questions)  
  - [Цифры, которые должен знать каждый разработчик](https://gist.github.com/jboner/2841832)  
  - [Реверс-интервью](https://github.com/kix/reverse-interview/blob/master/README.md)  
+ - [Глубже в дебри ФП](https://habr.com/ru/post/506782/)  
+ - [Функциональное программирование на typescript](https://habr.com/ru/post/526024/)  
+ - [Принципы устройства хранения объектов в javascript](https://mathiasbynens.be/notes/shapes-ics)  
+ - [Визуализация различных структур данных](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)  
+ - [Сайт Ильи Кантора с примерами структур данных, алгоритмов, ...](http://algolist.manual.ru/)  
+ - [Реализация популярных алгоритмов на javascript](https://github.com/trekhleb/javascript-algorithms)  
+ - [Построение карьеры](https://habr.com/ru/post/533764/)  
+ - [Microservice Architecture and its 10 Most Important Design Patterns](https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41)  
+ - [Видео: саги - поддержание целостности данных в микросервисной архитектуре](https://www.youtube.com/watch?v=7kX3fs0pWwc)  
+ - [Функциональное программирование на javascript - примеры](https://habr.com/ru/company/mailru/blog/327522/)  
+ - [Все о разработке микросервисов (типичные проблемы и способы их решения)](https://microservices.io/)  
+ - [Архитектурные хроники](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/)  
+ - [Построение микросервисов на .Net](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/)  
+ - [Разработка с использованием саг](http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html)  
 
+## Микросервисы
+ - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
 
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
@@ -52,6 +68,9 @@
  - [«Гори, гори ясно, пока не погасло», или Чем чревато эмоциональное выгорание ваших сотрудников](https://habr.com/ru/post/463511/) 
  - [Базовое руководство по созданию сбалансированных команд разработчиков](https://habr.com/ru/post/506400/)  
  - [Мэнеджмент и командная работа](https://habr.com/ru/post/472946/)  
+ - [Как говорить с сотрудниками. 7 аспектов, о которых забывают](https://habr.com/ru/post/525948/)  
+ - [Рентабельность инвестиций в Канбан](https://systemskill.ru/tpost/dblmc81c81-rentabelnost-investitsii-v-kanban-chast)  
+ - [Message Queues in Database Transactions](https://medium.com/galvanize/message-queues-in-database-transactions-f830718f4f12)  
 
 
 ## Трансгуманизм

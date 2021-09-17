@@ -86,7 +86,9 @@
  - [Набор библиотек для создания эмбеддингов](https://github.com/MaxwellRebo/awesome-2vec)  
  - [65 бесплатных курсов по Machine Learning от ведущих университетов мира](https://habr.com/ru/company/skillfactory/blog/504882/)  
  - [Онтол от DeepMind: самые полезные материалы по искусственному интеллекту от мирового лидера](https://habr.com/ru/company/skillfactory/blog/509212/)  
-
+ - [Курс по deeplearning от Яна Лекуна](https://cds.nyu.edu/deep-learning/)  
+ - [Галерея лучших блокнотов по ML и Data Science](https://habr.com/ru/post/460321/)  
+ - [Лучшее в мире видео-объяснение нейронных сетей, глубокого обучения, градиентного спуска и обратного распространения](https://habr.com/ru/post/533760/)  
 
 
 ## Датасеты/Данные
