@@ -51,7 +51,7 @@ Hierarchical-model-view-controller. Суть данного паттерна в 
  - инверсия зависимостей является ключевой особенностью данной архитектуры  
  - слой данных располагается не в центре, а вынесен в инфраструктуру  
 
-![onion architecture](https://www.codeguru.com/imagesvr_ce/2236/Onion1.png)
+![onion architecture](https://lh3.googleusercontent.com/proxy/R4pUOS0BaoYiEpKVTJa-nigNipMhDvBvg_0b-lH7rSXoQudvGJNko2pFeBJQWP4xvF82kQOviQQ81nZz3zXUB9bJaED7vT2wjZuFmJ66Kc0-NRb43qYjcohsjCw1Ke8)
 
 ### Гексагональная архитектура
 Является логичным продолжением луковичной архитектуры и разделяет ui, инфраструктуру и данные.
