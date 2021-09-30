@@ -55,6 +55,7 @@
 
 ## Микросервисы
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
+ - [Сайт Криса Ричардсона - здесь есть все ключевые паттерны необходимые для построения микросервисов](https://microservices.io)  
 
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
@@ -71,7 +72,16 @@
  - [Как говорить с сотрудниками. 7 аспектов, о которых забывают](https://habr.com/ru/post/525948/)  
  - [Рентабельность инвестиций в Канбан](https://systemskill.ru/tpost/dblmc81c81-rentabelnost-investitsii-v-kanban-chast)  
  - [Message Queues in Database Transactions](https://medium.com/galvanize/message-queues-in-database-transactions-f830718f4f12)  
-
+ - [Что такое быть тимлидом](https://habr.com/ru/post/484008/)  
+ - [Бережливое производство — инструмент борьбы за эффективность](https://habr.com/ru/post/471296/)  
+ - [Как угробить командную работу - руководство для менеджера](https://www.youtube.com/watch?v=2yG1MUf2boc)  
+ - [Инструменты управления большой командой](https://www.youtube.com/watch?v=xEIKydXDrPA)  
+ - [Бизнес и системный анализ для архитекторов](https://www.youtube.com/watch?v=1bBNVWr_pEw&list=PLrCZzMib1e9ryE2N4xMHfbM0fWM8veVQ7)  
+ - [Управление IT-проектами и продуктом](https://www.youtube.com/watch?v=bVJSwGJolSs&list=PLrCZzMib1e9oUFO9saNfPAqBjpQW8v9I-)  
+ - [Красная корпоративная культура (часть 1)](https://habr.com/ru/post/483876/)  
+ - [Красная корпоративная культура (часть 2)](https://habr.com/ru/post/484468/)  
+ - [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
+ - [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri)  
 
 ## Трансгуманизм
  - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)  
