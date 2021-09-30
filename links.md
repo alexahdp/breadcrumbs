@@ -57,6 +57,9 @@
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
  - [Сайт Криса Ричардсона - здесь есть все ключевые паттерны необходимые для построения микросервисов](https://microservices.io)  
 
+## Для архитектора
+ - [Архитектор решения / инжиниринг](https://habr.com/ru/company/otus/blog/578372/)  
+
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
