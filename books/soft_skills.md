@@ -1,15 +1,3 @@
-### Подборка очерь полезных видео по управлению командой и построению командной работы
- * [Как угробить командную работу - руководство для менеджера](https://www.youtube.com/watch?v=2yG1MUf2boc)  
- * [Инструменты управления большой командой](https://www.youtube.com/watch?v=xEIKydXDrPA)  
- * [Бизнес и системный анализ для архитекторов](https://www.youtube.com/watch?v=1bBNVWr_pEw&list=PLrCZzMib1e9ryE2N4xMHfbM0fWM8veVQ7)  
- * [Управление IT-проектами и продуктом](https://www.youtube.com/watch?v=bVJSwGJolSs&list=PLrCZzMib1e9oUFO9saNfPAqBjpQW8v9I-)  
- * [Красная корпоративная культура (часть 1)](https://habr.com/ru/post/483876/)  
- * [Красная корпоративная культура (часть 2)](https://habr.com/ru/post/484468/)  
- * [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
- * [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri)  
- * [Что такое быть тимлидом](https://habr.com/ru/post/484008/)  
- * [Бережливое производство — инструмент борьбы за эффективность](https://habr.com/ru/post/471296/)  
-
 ### Менеджмент абсурда  
 Детская библия для менеджеров  
 
