@@ -65,6 +65,7 @@
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
+ - [Лечение «механического» Scrum. Часть 3. SM](https://habr.com/ru/company/wrike/blog/416189/)  
  - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
  - [Agile-трансформация](https://habr.com/ru/company/rdtex/blog/452358/)  
  - [Pi-планирование (многокомандный скрам)](https://habr.com/ru/company/scrumtrek/blog/319460/)  
