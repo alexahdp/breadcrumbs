@@ -53,6 +53,7 @@
  - [Построение микросервисов на .Net](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/)  
  - [Разработка с использованием саг](http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html)  
  - [Практические рекомендации по работе с Docker для Python-разработчиков](https://habr.com/ru/company/wunderfund/blog/586778/)  
+ - [Теория тестирования ПО просто и понятно](https://habr.com/ru/post/587620/)  
 
 ## Микросервисы
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
