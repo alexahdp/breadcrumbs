@@ -55,15 +55,14 @@
  - [Практические рекомендации по работе с Docker для Python-разработчиков](https://habr.com/ru/company/wunderfund/blog/586778/)  
  - [Теория тестирования ПО просто и понятно](https://habr.com/ru/post/587620/)  
 
-## Микросервисы
+## Архитектура, микросервисы
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
  - [Сайт Криса Ричардсона - здесь есть все ключевые паттерны необходимые для построения микросервисов](https://microservices.io)  
  - [Микросервисы глазами аналитика](https://habr.com/ru/post/583136/)  
  - [За двумя зайцами погонишься — чеклист для HighLoad системы гуглить будешь](https://habr.com/ru/post/583046/)  
  - [Управление распределенными транзакциями с помощью Camunda](https://habr.com/ru/company/leroy_merlin/blog/589155/)  
-
-## Для архитектора
  - [Архитектор решения / инжиниринг](https://habr.com/ru/company/otus/blog/578372/)  
+ - [Как устроена архитектура финтех-сервисов с uptime 99,9%](https://habr.com/ru/company/yoomoney/blog/591803/)  
 
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
