@@ -10,5 +10,5 @@
  * [Шаблоны/Паттерны](./design_patterns.md)
  * [Распределенные системы](./distributed_systems.md)
  * [Big Data](./big-data.md)
- * [Flow.js - примеры](./flow-typing.md)  
+ * [Блоги технологических компаний](./tech_companies_blogs.md)  
  * [rxjs.js - примеры](./rxjs.md)  
