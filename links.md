@@ -55,6 +55,9 @@
  - [Практические рекомендации по работе с Docker для Python-разработчиков](https://habr.com/ru/company/wunderfund/blog/586778/)  
  - [Теория тестирования ПО просто и понятно](https://habr.com/ru/post/587620/)  
  - [Руководство по выживанию с MongoDB](https://habr.com/ru/company/oleg-bunin/blog/454748/)  
+ - [Доменное моделирование в функциональном стиле (часть 1)](https://bespoyasov.ru/blog/domain-modelling-made-functional/)  
+ - [Доменное моделирование в функциональном стиле (часть 2)](https://bespoyasov.ru/blog/domain-modelling-made-functional-2/)  
+ - [Доменное моделирование в функциональном стиле (часть 3)](https://bespoyasov.ru/blog/domain-modelling-made-functional-3/)  
 
 ## Архитектура, микросервисы
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
