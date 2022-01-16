@@ -16,4 +16,4 @@
 
 
 ### Conclusions
- * [Практики](./practices.md)  
+ * [Практики](./my_practices.md)  
