@@ -9,7 +9,4 @@
  * [Dev-breadcrumbs](./dev/README.md)  
  * [Машинное обучения](./ml/README.md)  
  * [Полезные ссылки](./links.md)  
-
-
-### Conclusions
- * [Практики](./my_practices.md)  
+ * [Сформулированные и выведенные мной за профессиональную деятельность правила и принципы](./my_practices.md)  
