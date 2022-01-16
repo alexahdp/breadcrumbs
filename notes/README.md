@@ -8,3 +8,4 @@
  * [Курс "Мэнеджмент в IT-компанде" от Mailru](./mailru_management_course.md)  
  * [Микросервисы](./microservices.md)  
  * [Unit-экономика - ключевые понятия](./unit_economy.md)  
+ * [Цитаты о программировании и разработке](./quotes.md)  
