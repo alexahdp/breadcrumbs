@@ -6,11 +6,12 @@
 
 
 ### Общее
- * [Подборка цитат о программировании и разработке](./quotes.md)  
- * [Художественная литература](./books/fiction.md)  
- * [Разработка и hard-skills](./dev/README.md)  
- * [Разработка в цитатах и выдержках](./books/hard_skills.md)  
- * [Мэнеджмент и soft-skills](./books/soft_skills.md)  
+ * Книги и выдержки из книг
+   * [Программирование](./books/hard_skills.md)  
+   * [Мэнеджмент и soft-skills](./books/soft_skills.md)  
+   * [Художественная литература](./books/fiction.md)  
+ * [Подборка цитат о программировании и разработке](./notes/quotes.md)  
+ * [Dev-breadcrumbs](./dev/README.md)
  * [Полезные ссылки](./links.md)  
 
 
