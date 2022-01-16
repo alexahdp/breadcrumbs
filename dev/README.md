@@ -6,7 +6,6 @@
  * [Облачная инфраструктура](./clouds.md)  
  * [DDD](./ddd.md)  
  * [Базы данных](./databases.md)  
- * [Структуры данных](./data_structures.md)  
  * [Шаблоны/Паттерны](./design_patterns.md)
  * [Распределенные системы](./distributed_systems.md)
  * [Big Data](./big-data.md)
