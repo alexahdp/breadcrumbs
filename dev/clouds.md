@@ -65,6 +65,27 @@ How it works: Istio has two components: the data plane and the control plane.
 ### Links:
  - https://habr.com/ru/company/flant/blog/438426/
 
+## Deployment
+
+### Recreate
+All current production services go down. After that new production services starts up.
+
+### RollingUpdate
+One by one a new service starts up near the existing and replaces him.
+
+### Blue-Green
+The new version (blue) is deploing to the production in parallel mode with current production (green). Blue is not available for users, just for QA's. After accomplishing tests, the blue version replaces the green. After that green version is shutting down.
+
+### Canary
+The service is deploying to the production neas the existance service. A small part of the production traffic is directed to the canary service. Is everything is ok, then amount of traffic may be increased and then canary service replaces the current production service. If there are some troubles, then canary service is switching off and all traffic backs to the current proction service.
+Also we can have to nodes: canary and stable with the same amount of traffic to compare them.
+Strategy:
+ - one node is always "canary" - is gets less traffic to have ability to compare the amount of errors before and after;
+ - comprehensive monioring
+
+### A/B
+Two services with different features start up in parallel and get the same amount of traffic. Traffic should be stitched by cookie or something else.
+
 ## Docker
 Система контейнеризации. Суть в том, чтобы запускать процессы в специальных контейнерах (с помощью системных вызовов cgroupd и namespace), таким образом, процесс в контейнере не имеет произвольного доступа к файловой системе хоста, ему можно задавать ограничения на потребление ресурсов, файловая система такого процесса может отличаться от хостовой и, более того, все необходимые библиотеки теперь можно упаковать в контейнер и сколько угодно процессов с различными требованиями к библиотекам теперь вполне могут уживаться на одном хосте. Также стоит отметить то, что докер позволяет создавать удобные воспроизодимые среды. Больше информации можно почитать на оф.сайте и различных ресурсах.
 
