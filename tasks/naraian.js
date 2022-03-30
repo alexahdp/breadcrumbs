@@ -15,7 +15,7 @@ const findI = (seq) => {
 }
 
 const findJ = (seq, value) => {
-  seq.findIndex((v, i, self) => v > self[i]);
+  // seq.findIndex((v, i, self) => v > self[i]);
   for (let i = seq.length - 1; i >= 0; i--) {
     if (seq[i] > value) return i;
   }
@@ -43,12 +43,14 @@ function naraian(strseq) {
 
 const assert = ((a, b) => a === b || console.log(`ERROR: ${a} is not equal ${b}`));
 
-assert(naraian(''), '');
-assert(naraian('1'), '1');
-assert(naraian('12'), '21');
-assert(naraian('123'), '132');
+// assert(naraian(''), '');
+// assert(naraian('1'), '1');
+// assert(naraian('12'), '21');
+// assert(naraian('123'), '132');
+// assert(naraian('132'), '213');
+// assert(naraian('213'), '231');
+// assert(naraian('231'), '312');
+// assert(naraian('312'), '321');
+// assert(naraian('12345'), '12354');
+
 assert(naraian('132'), '213');
-assert(naraian('213'), '231');
-assert(naraian('231'), '312');
-assert(naraian('312'), '321');
-assert(naraian('12345'), '12354');
