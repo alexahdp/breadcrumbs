@@ -52,13 +52,26 @@
  - [Архитектурные хроники](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/)  
  - [Построение микросервисов на .Net](https://docs.microsoft.com/ru-ru/dotnet/architecture/microservices/)  
  - [Разработка с использованием саг](http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html)  
+ - [Практические рекомендации по работе с Docker для Python-разработчиков](https://habr.com/ru/company/wunderfund/blog/586778/)  
+ - [Теория тестирования ПО просто и понятно](https://habr.com/ru/post/587620/)  
+ - [Руководство по выживанию с MongoDB](https://habr.com/ru/company/oleg-bunin/blog/454748/)  
+ - [Доменное моделирование в функциональном стиле (часть 1)](https://bespoyasov.ru/blog/domain-modelling-made-functional/)  
+ - [Доменное моделирование в функциональном стиле (часть 2)](https://bespoyasov.ru/blog/domain-modelling-made-functional-2/)  
+ - [Доменное моделирование в функциональном стиле (часть 3)](https://bespoyasov.ru/blog/domain-modelling-made-functional-3/)  
 
-## Микросервисы
+## Архитектура, микросервисы
  - [26 основных паттернов микросервисной разработки](https://mcs.mail.ru/blog/26-osnovnyh-patternov-mikroservisnoj-razrabotki)  
+ - [Сайт Криса Ричардсона - здесь есть все ключевые паттерны необходимые для построения микросервисов](https://microservices.io)  
+ - [Микросервисы глазами аналитика](https://habr.com/ru/post/583136/)  
+ - [За двумя зайцами погонишься — чеклист для HighLoad системы гуглить будешь](https://habr.com/ru/post/583046/)  
+ - [Управление распределенными транзакциями с помощью Camunda](https://habr.com/ru/company/leroy_merlin/blog/589155/)  
+ - [Архитектор решения / инжиниринг](https://habr.com/ru/company/otus/blog/578372/)  
+ - [Как устроена архитектура финтех-сервисов с uptime 99,9%](https://habr.com/ru/company/yoomoney/blog/591803/)  
 
 ## Менеджмент и командная работа
  - [Лечение «механического» Scrum. Часть 1. Работа PO](https://habr.com/company/wrike/blog/414923/)  
  - [Лечение «механического» Scrum. Часть 2. Команда](https://habr.com/company/wrike/blog/415563/)  
+ - [Лечение «механического» Scrum. Часть 3. SM](https://habr.com/ru/company/wrike/blog/416189/)  
  - [Отличная статья о внедрении Scrum](https://habr.com/ru/post/443914/)  
  - [Agile-трансформация](https://habr.com/ru/company/rdtex/blog/452358/)  
  - [Pi-планирование (многокомандный скрам)](https://habr.com/ru/company/scrumtrek/blog/319460/)  
@@ -71,7 +84,17 @@
  - [Как говорить с сотрудниками. 7 аспектов, о которых забывают](https://habr.com/ru/post/525948/)  
  - [Рентабельность инвестиций в Канбан](https://systemskill.ru/tpost/dblmc81c81-rentabelnost-investitsii-v-kanban-chast)  
  - [Message Queues in Database Transactions](https://medium.com/galvanize/message-queues-in-database-transactions-f830718f4f12)  
-
+ - [Что такое быть тимлидом](https://habr.com/ru/post/484008/)  
+ - [Бережливое производство — инструмент борьбы за эффективность](https://habr.com/ru/post/471296/)  
+ - [Как угробить командную работу - руководство для менеджера](https://www.youtube.com/watch?v=2yG1MUf2boc)  
+ - [Инструменты управления большой командой](https://www.youtube.com/watch?v=xEIKydXDrPA)  
+ - [Бизнес и системный анализ для архитекторов](https://www.youtube.com/watch?v=1bBNVWr_pEw&list=PLrCZzMib1e9ryE2N4xMHfbM0fWM8veVQ7)  
+ - [Управление IT-проектами и продуктом](https://www.youtube.com/watch?v=bVJSwGJolSs&list=PLrCZzMib1e9oUFO9saNfPAqBjpQW8v9I-)  
+ - [Красная корпоративная культура (часть 1)](https://habr.com/ru/post/483876/)  
+ - [Красная корпоративная культура (часть 2)](https://habr.com/ru/post/484468/)  
+ - [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
+ - [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri)  
+ - [Вот как Амазон измеряет свою эффективность](https://habr.com/ru/post/584918/)  
 
 ## Трансгуманизм
  - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)  
