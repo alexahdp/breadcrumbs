@@ -1,5 +1,7 @@
 ## Developer breadcrumbs
 
+My account at leetcode: [https://leetcode.com/alexahdp/](https://leetcode.com/alexahdp/)  
+
 ### Общее
  * Книги и выдержки из книг
    * [Программирование](./books/hard_skills.md)  

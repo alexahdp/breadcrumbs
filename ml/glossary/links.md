@@ -89,7 +89,7 @@
  - [Курс по deeplearning от Яна Лекуна](https://cds.nyu.edu/deep-learning/)  
  - [Галерея лучших блокнотов по ML и Data Science](https://habr.com/ru/post/460321/)  
  - [Лучшее в мире видео-объяснение нейронных сетей, глубокого обучения, градиентного спуска и обратного распространения](https://habr.com/ru/post/533760/)  
-
+ - [Линейная регрессия. Разбор математики и реализации на python](https://habr.com/ru/post/659415/)  
 
 ## Датасеты/Данные
  - http://homepages.inf.ed.ac.uk/rbf/IAPR/researchers/MLPAGES/mldat.htm
