@@ -18,11 +18,8 @@ My account at leetcode: [https://leetcode.com/alexahdp/](https://leetcode.com/al
     * [Облачная инфраструктура](./dev/clouds.md)  
     * [DDD](./dev/ddd.md)  
     * [Базы данных](./dev/databases.md)  
-    * [Шаблоны/Паттерны](./dev/design_patterns.md)
     * [Распределенные системы](./dev/distributed_systems.md)
-    * [Big Data](./dev/big-data.md)
     * [Блоги технологических компаний](./dev/tech_companies_blogs.md)  
-    * [rxjs.js - примеры](./dev/rxjs.md)  
 
  * [Машинное обучение](./ml/README.md)  
  * [Полезные ссылки](./links.md)  
