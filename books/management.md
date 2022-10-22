@@ -267,3 +267,66 @@
 ### Александр Бындю - Антихрупкость в IT
 Отличное руководство если вы собираетесь нанять аутсорсинговую компанию для разработки IT-продукта.
 Автор объясняет почему невозможно сделать всеобъемлющее ТЗ и почему зачастую не стоит это делать, а также дает рекомендации как стоит поступать, чтобы не потратить бюджет впустую. Также в книге автор объясняет важность контроля технического долга, преимущества использования микросервисной архитектуры в рамках организации. Крайне рекомендую книгу всем, кто управляет разработкой IT-продуктов.
+
+
+### Teams topologies
+
+*the architecture of the organization is the architecture of the system*
+
+ - Convey’w law
+
+ - very often org structure doesn’t correspond to how how really communications between people are organized
+
+ - the problem: cognitive load to one team may be too big. In this case we need to distribute it between few teams;
+
+ - thinking of software architecture as a standalone concept that can be designed in isolation and then implemented by any group of teams is fundamentally wrong. Specifically, that is why monoliths need to be broken down while keeping a team focus.
+
+ - Modern version of the Convey’s low: «If the architecture of the system and the architecture of the organization are at odds, the architecture of the organization wins»
+
+ - inverse Convay maneuver: the organizations should evolve their team and organizational structure to achieve the desired architecture. The goal is for your architecture to support the ability of teams to get their work done - from design through to deployment without requiring high-bandwidth communication between teams.
+
+ - Conway’s law tells us that  we need to understand what software architecture is needed BEFORE we organize our teams, otherwise the communication paths and incentives in the organization will end up dictating the software architecture (Teams assignments are the first draft of the architecture)
+
+ - we need a team-first software architecture that maximizes people’s ability to work with it
+
+ - not all communications are good. If there are communications between teams which should not communicate from the architecture point of view, then there are problems with your architecture or responsibilities segregation
+
+ - Have separate tools for independent teams, and use shared tools for collaborative teams
+
+ - teams work more effectively if they own codebase. In other case teams clutter each other and slow down performance
+
+ - reward the whole team, not individuals
+
+ - if a domain is too big for a one team, then it is better to split the domain into few subdomains and assign a team for each subdomain, then  to assign a domain to multiple teams
+
+ - «Minimize cognitive load for others» - is one of the most useful heuristics for good software development
+
+ -  instead of structuring teams according to technical know-how or activities, organize teams according to business domain areas
+
+ - there are three types of dependencies between teams: knowledge, task and resource
+
+ - monolithic approach is simpler from the technical management point of view: there is a transparent set of technologies which are easy to control. At the same time it can lead to reduction of motivation in teams, because it deprives the ability of choosing appropriate instruments for different tasks
+
+ - If you have microservices but you wait and do end-to-end testing of a combination of them before the release, what you have is a distributed monolith
+
+ - technologies and organizations should be redesigned to intermittently isolate people from each other’s work for best collective performance in solving complex problems
+
+ - teams interaction modes: collaboration, X-as-a-service, facilitating
+
+ - Because with Conway’s law in force within a system-building organization, the architecture of the organization is the architecture of the system
+
+ - «someone who claims to be an Architect needs both technical and social skills… They also need a remit that is broader then pure technology - they need to have a say in business strategies, organizational structures, and personnel issues, i.e., they need to be a manager too»
+
+ - collaboration is expensive. Unnecessary collaboration is particularly expensive, especially as it can mask or hide deficiencies in underlying platforms or capabilities. Any ongoing collaborations activity must, therefore, be justified as valuable discovery, valuable capability building, or valuable deficiency-filling activity.
+
+ - the rapid pace of change in technology, markets, customer and user demands, and regulatory requirements means successful organizations need to expect to adapt and evolve their organization structure on regular basis. However, organizations that build and run software systems need to ensure that their team interactions optimize for flow, Conway’s law, and a team-first approach (including team cognitive load). By deploying the four fundamental team topologies with three core team interaction modes, organizations gain crucial clarity of purpose for their teams on an ongoing basis. Teams understand how, when, and why they need to collaborate with other teams; how, when and why they should be consuming or providing something «as a service»; and how, when, and why they should provide or seek facilitation with  another team. Thus, an organization should expect to see different kinds of interactions between different kinds of teams at any given time as the organization responds to new challenges
+
+ - the reason so many organizations experience so many problems with software delivery is because most organizations have an unhelpful model of what software development is really about. An obsession with «feature delivery» ignores the human-related and team-related dynamics inherent in modern software, leading to a lack of engagement from staff, especially when the cognitive load is exceeded.
+
+ - However, Team Topologies alone will not produce an effective software-delivery and operations organization. Beyond the structure and dynamics suggested in this book, important additional ingredients of success include:
+   * a healthy organizational structure: an environment that supports the professional development of individuals and teams - one in which people feel empowered and safe to speak out about problems, and the organization expects to learn continuously;
+   * good engineering practices: test first design and development of all aspects of the systems, a focus on continuous delivery and operability practices, pairing and mobbing for code review, avoiding the search for a single «root cause» for incidents, designing for testability, and so on;
+   * healthy funding and financial practices: avoiding the pernicious effects of CapEx/OpEx split between different parts of IT organization
+   * clarity of business vision: the executives or leadership provides a clear, non-conflicting vision and direction for the rest of the organization, with horizons at human-relevant timescales and clear reasoning behind the priorities, so people in the organization can understand how and why these were chosen;
+
+
