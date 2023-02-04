@@ -192,50 +192,52 @@ Allows to get the internet from the EC2 instance in private VPC, but doesn't all
 - Egress Gateway
 
 **Methods of connecting to a VPC:**
- ● AWS Managed VPN.
- ● AWS Direct Connect.
- ● AWS Direct Connect plus a VPN.
- ● AWS VPN CloudHub.
- ● Transit VPC.
- ● VPC Peering.
- ● AWS PrivateLink.
- ● VPC Endpoints.
+ ● AWS Managed VPN  
+ ● AWS Direct Connect  
+ ● AWS Direct Connect plus a VPN  
+ ● AWS VPN CloudHub  
+ ● Transit VPC  
+ ● VPC Peering  
+ ● AWS PrivateLink  
+ ● VPC Endpoints  
 
 **Costs for USA**
-Incoming traffic is free
-communication between EC2 instances at the same AZ is free
-communication between EC2 instances in different AZ is paid:
-   - 0.02 per Gb using public IP
-   - 0.01 per Gb using private IP
-Communication betwee regions: 0.02 per Gb
+ - Incoming traffic is free  
+ - communication between EC2 instances at the same AZ is free  
+ - communication between EC2 instances in different AZ is paid:  
+   - 0.02 per Gb using public IP  
+   - 0.01 per Gb using private IP  
+ - Communication betwee regions: 0.02 per Gb  
 
-You must keep traffic in AWS to minimize costs
-**S3 data transferring**
+You must keep traffic in AWS to minimize costs  
 
-ingress traffic - free
-to internet - 0.09 per Gb
-S3 Transfer Acceleration
-    - from 0.04 to 0.08 per Gb
 
-S3 cross-region replication - 0.02 perGb
-From CloudFront to internet - 0.085 per Gb
+**S3 data transferring**  
 
-**High performance network**
+ingress traffic - free  
+to internet - 0.09 per Gb  
+S3 Transfer Acceleration  
+    - from 0.04 to 0.08 per Gb  
 
-EC2 enhanced networking
- - higher PPC, lower latency
- - Elastic Network Adapter
- - Intel 82599.... (Legacy)
+S3 cross-region replication - 0.02 perGb  
+From CloudFront to internet - 0.085 per Gb  
 
-**Elastic Fabric Adapter**
-(only for Linux)
+**High performance network**  
+
+EC2 enhanced networking  
+ - higher PPC, lower latency  
+ - Elastic Network Adapter  
+ - Intel 82599.... (Legacy)  
+
+**Elastic Fabric Adapter**  
+(only for Linux)  
 
 ### EC2
 
-**EC2** - elastic compute cloud. Virtual machine
-**EC2 User data script** - for running once, when the machine is started
+**EC2** - elastic compute cloud. Virtual machine  
+**EC2 User data script** - for running once, when the machine is started  
 
-Security Groups control in and out traffic of EC2. They have only allow rules.
+Security Groups control in and out traffic of EC2. They have only allow rules.  
 
 To working with aws from your EC2 it's better to assign roles to your EC2 instances. Using accessKeys may be not so good idea  
 
