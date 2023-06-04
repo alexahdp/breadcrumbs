@@ -95,6 +95,8 @@
  - [Красная корпоративная культура (часть 3)](https://habr.com/ru/post/485614/)  
  - [Что такое Хосин Канри](http://www.lean-consult.ru/blog/what_is_hoshin_kanri)  
  - [Вот как Амазон измеряет свою эффективность](https://habr.com/ru/post/584918/)  
+ - [Backend Cheats - набор полезных материало для бэкенд-разработчиков](https://github.com/cheatsnake/backend-cheats/)  
+ - [Every Programmer Should Know - набор полезных знаний по Computer-Science](https://github.com/mtdvio/every-programmer-should-know)  
 
 ## Трансгуманизм
  - [Не верьте своему мозгу](http://megamozg.ru/post/6016/)  
