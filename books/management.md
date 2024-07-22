@@ -330,3 +330,5 @@
    * clarity of business vision: the executives or leadership provides a clear, non-conflicting vision and direction for the rest of the organization, with horizons at human-relevant timescales and clear reasoning behind the priorities, so people in the organization can understand how and why these were chosen;
 
 
+### The culture map
+ - <TODO>
