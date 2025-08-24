@@ -80,7 +80,7 @@ Use cases:
 **AWS RAM - Resource Access Manager**
 
 Many accounts can share some resources
-For example: VPC, private network
+For example: subnets, transit gateways, license manager
 
 **AWS SSO**
 May be used to provide access tokens instead of STS
