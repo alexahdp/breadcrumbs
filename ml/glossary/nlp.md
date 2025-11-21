@@ -84,3 +84,7 @@ https://habr.com/ru/company/ods/blog/458928/
 
 Очень крутая статья про алгоритмы извлечения фактов из текста:
 https://proglib.io/p/fun-nlp/?unapproved=3317&moderation-hash=5efa690598d4ed733f8d0859d75736d3#comment-3317
+
+### Ссылки
+ - [Краткий обзор техник векторизации в NLP](https://habr.com/en/articles/778048/)
+ - ['Attention is all you need' простым языком](https://habr.com/en/articles/781770/)  
