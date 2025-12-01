@@ -21,6 +21,7 @@ My account at leetcode: [https://leetcode.com/alexahdp/](https://leetcode.com/al
     * [Распределенные системы](./dev/distributed_systems.md)
     * [Блоги технологических компаний](./dev/tech_companies_blogs.md)  
     * [Postgres](./dev/postgres.md)  
+    * [Java concurrency](./dev/java_concurrency.md)
 
  * [Машинное обучение](./ml/README.md)  
  * [Полезные ссылки](./links.md)  
