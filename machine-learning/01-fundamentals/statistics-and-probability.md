@@ -1,7 +1,5 @@
 # Statistics and Probability
 
-Statistical foundations are essential for understanding how machine learning models learn from data and make predictions under uncertainty.
-
 ## Table of Contents
 
 1. [Population and Sampling](#population-and-sampling)
@@ -298,10 +296,3 @@ where $m$ is the number of comparisons.
 - [Distance Metrics Overview](https://delirium-00.livejournal.com/7215.html) (Russian)
 - Introduction to Statistical Learning (James, Witten, Hastie, Tibshirani)
 - All of Statistics (Larry Wasserman)
-
-## Next Steps
-
-After mastering statistics and probability:
-- Study [Linear Algebra](./linear-algebra.md) for matrix operations
-- Learn [Calculus Basics](./calculus-basics.md) for optimization
-- Apply knowledge in [Data Preprocessing](./data-preprocessing.md)

@@ -1,7 +1,5 @@
 # Linear Algebra
 
-Linear algebra is fundamental to machine learning. Most data operations, transformations, and neural network computations are matrix operations.
-
 ## Table of Contents
 
 1. [Vectors](#vectors)
@@ -454,10 +452,3 @@ Linear algebra concepts essential for ML:
 - Introduction to Linear Algebra for Applied Machine Learning (Pablo Caceres)
 - Mathematics for Machine Learning (Deisenroth, Faisal, Ong)
 - [MIT OpenCourseWare: Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
-
-## Next Steps
-
-After mastering linear algebra:
-- Study [Calculus Basics](./calculus-basics.md) for optimization methods
-- Apply in [Data Preprocessing](./data-preprocessing.md) for feature transformations
-- See applications in [PCA and dimensionality reduction](../03-classical-ml/clustering/dimensionality-reduction.md)

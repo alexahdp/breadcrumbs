@@ -1,7 +1,5 @@
 # Data Preprocessing
 
-Data preprocessing is a critical step in machine learning pipelines. Real-world data is often messy, incomplete, and not in a format suitable for training models. Proper preprocessing can significantly improve model performance.
-
 ## Table of Contents
 
 1. [Why Preprocessing Matters](#why-preprocessing-matters)
@@ -696,10 +694,3 @@ When converting categorical text features to numeric, be careful not to create o
 - Feature Engineering for Machine Learning (Alice Zheng, Amanda Casari)
 - Hands-On Machine Learning (Aurélien Géron)
 - [Scikit-learn Preprocessing Guide](https://scikit-learn.org/stable/modules/preprocessing.html)
-
-## Next Steps
-
-After mastering preprocessing:
-- Study [Core ML Concepts](../02-core-concepts/) for model training
-- Apply preprocessing in [Classical ML](../03-classical-ml/) methods
-- Learn about feature selection and dimensionality reduction
