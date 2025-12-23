@@ -106,6 +106,10 @@ $$P(X=k) = \binom{n}{k}p^k(1-p)^{n-k}$$
 
 $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
+Distribution diagram:
+
+<img src="./images/normal_distr.png" width=500 alt="Normal Distribution" />
+
 Properties:
 - Symmetric around the mean
 - Mean = median = mode
@@ -120,6 +124,10 @@ The t-statistic:
 $$t = \frac{\bar{x} - \mu}{s / \sqrt{n}}$$
 
 where $s$ is the sample standard deviation.
+
+Distribution diagram:
+
+<img src="./images/student_distr.png" width=500 alt="Student Distribution" />
 
 ## Statistical Inference
 
